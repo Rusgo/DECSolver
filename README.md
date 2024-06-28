@@ -37,6 +37,8 @@ Para instalar la versión de Windows desde la Microsoft Store, sigue estos pasos
 
 [Descargar para Windows](#)
 
+[En caso de que no este disponible](https://github.com/Rusgo/DECSolver/tree/main/Instaladores/Windows)
+
 ### Android
 
 Para instalar la versión de Android desde la Google Play Store, sigue estos pasos:
@@ -44,10 +46,11 @@ Para instalar la versión de Android desde la Google Play Store, sigue estos pas
 2. En la página de la aplicación, haz clic en "Instalar" para descargar e instalar la aplicación en tu dispositivo Android.
 
 [Descargar para Android](#)
-##Guía de uso
+
+[En caso de que no este disponible](https://github.com/Rusgo/DECSolver/tree/main/Instaladores/Android)
+## Guía de uso
 
 ## Ejemplos
 
 
 
-###gut bie
