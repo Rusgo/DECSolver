@@ -4,15 +4,9 @@
   <img src="https://github.com/Rusgo/DECSolver/blob/main/WhatsApp%20Image%202024-06-28%20at%2013.09.55.jpeg" alt="Descripción de la imagen">
 
 
-# Desarrollo
+# Sobre la App
 
-**Contenidos**
-
-[TOCM]
-
-[TOC]
-
-##Introducción
+## Introducción
 Hola, somos estudiantes de la carrera de Ingeniería en Sistemas de Información de la Universidad Tecnológica Nacional, Facultad Regional de Córdoba. Nos gustaría presentarles una aplicación desarrollada para la materia "Decisiones en Escenarios Complejos".
 
 Estamos muy felices de tener la oportunidad de poner a prueba los conocimientos adquiridos a lo largo de la carrera y en esta materia en particular. En la aplicación, implementamos métodos de decisión multicriterio vistos en clase, entre los cuales se incluyen:
@@ -34,7 +28,7 @@ La aplicación está diseñada para ser utilizada a diario por nosotros, nuestro
 
 Estamos muy emocionados de compartir nuestro trabajo con ustedes y esperamos que encuentren útil esta herramienta.
 
-##Instalación 
+## Instalación 
 ### Windows
 
 Para instalar la versión de Windows desde la Microsoft Store, sigue estos pasos:
@@ -52,8 +46,7 @@ Para instalar la versión de Android desde la Google Play Store, sigue estos pas
 [Descargar para Android](#)
 ##Guía de uso
 
-##Ejemplos
-
+## Ejemplos
 
 
 
