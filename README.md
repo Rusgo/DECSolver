@@ -1,4 +1,5 @@
-![](https://img.shields.io/github/release/pandao/editor.md.svg)![](https://img.shields.io/github/stars/pandao/editor.md.svg)![]
+# DEC Solver
+![](https://img.shields.io/github/release/pandao/editor.md.svg)![](https://img.shields.io/github/stars/pandao/editor.md.svg)
 <p align="center">
   <img src="https://github.com/Rusgo/DECSolver/blob/main/WhatsApp%20Image%202024-06-28%20at%2013.09.55.jpeg" alt="Descripción de la imagen">
 
