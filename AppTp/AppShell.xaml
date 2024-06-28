@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AppTp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppTp"
+    Shell.FlyoutBehavior="Disabled"
+    Title="AppTp"
+    BackgroundColor="#135D66">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:Pantallas.Inicio}"
+        Route="MainPage" />
+
+</Shell>

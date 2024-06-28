@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTp.Pantallas.Pasos.Prometee_TabbedPage"
+             x:DataType="TabbedPage"
+                xmlns:local="clr-namespace:AppTp.Pantallas.Pasos"
+            BarTextColor="#E3FEF7"
+            BackgroundColor="#135D66"
+            SelectedTabColor="#E3FEF7"
+            BarBackgroundColor="#135D66">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Generar Excel" Clicked="ToolbarItem_Clicked" />
+    </TabbedPage.ToolbarItems>
+    <local:Prometee_Paso1_calculoPrefyFuncion Title="Paso 1"/>
+    <local:Prometee_Paso2_Preferencia Title="Paso 2"/>
+    <local:Prometee_paso3_calculoFlujos Title="Paso 3"/>
+    <local:Prometee_Paso4_Preorden Title="Paso 4"/>
+    <local:Moora_Resultados Title="Resultados"/>
+
+</TabbedPage>

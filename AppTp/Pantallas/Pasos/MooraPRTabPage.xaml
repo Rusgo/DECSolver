@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTp.Pantallas.Pasos.MooraPRTabPage"
+            x:DataType="TabbedPage"
+            xmlns:local="clr-namespace:AppTp.Pantallas.Pasos"
+            BarTextColor="#E3FEF7"
+            BackgroundColor="#135D66"
+            SelectedTabColor="#E3FEF7"
+            BarBackgroundColor="#135D66">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Generar Excel" Clicked="OnGenerateExcelClicked" />
+        <ToolbarItem Text="Moora con Punto de Referencia" />
+    </TabbedPage.ToolbarItems>
+    <ContentPage Title="Paso 1" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout>
+                <Label Margin="5,10,0,0" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 1: " FontAttributes="Bold"/>
+                            <Span Text="Normalizo y obtengo la función de agregación"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Grid x:Name="GridPR1_NormAgregacion"
+          Padding="20"
+          RowSpacing="10"
+          ColumnSpacing="10">
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Paso 2" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout>
+                <Label Margin="5,10,0,0" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 2: " FontAttributes="Bold"/>
+                            <Span Text="Pondero la matriz por los pesos y obtengo el punto ideal R"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Grid x:Name="GridMooraPR2_PondIdeal"
+      Padding="20"
+      RowSpacing="10"
+      ColumnSpacing="10">
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Paso 3" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout>
+                <Label Margin="5,10,0,0" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 3: " FontAttributes="Bold"/>
+                            <Span Text="Obtenemos la distacia al Punto Ideal:"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Grid x:Name="GridMooraPR3_Distancias"
+      Padding="20"
+      RowSpacing="10"
+      ColumnSpacing="10">
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <local:Moora_Resultados x:Name="resultado" Title="Resultados"/>
+    
+
+</TabbedPage>

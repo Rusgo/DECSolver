@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTp.Pantallas.Pasos.Prometee_paso3_calculoFlujos"
+             Title="Prometee_paso3_calculoFlujos">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Margin="5,10,0,0" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 3: " FontAttributes="Bold"/>
+                            <Span Text="Expresar como xi supera a las demás y como es superada por las otras. Calcular los flujos de superación positivos y negativos 
+                                  relativos a la alternativa xi"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+

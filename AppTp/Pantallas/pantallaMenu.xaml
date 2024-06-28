@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTp.Pantallas.pantallaMenu"
+             Title="Carga de datos"
+             BackgroundColor="{DynamicResource fondo}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key = "fondo">#E3FEF7</Color>
+            <Color x:Key = "boton">#135D66</Color>
+            <Color x:Key = "labels">#003C43</Color>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Siguiente" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ScrollView HorizontalOptions="FillAndExpand">
+
+        <Frame BackgroundColor="{DynamicResource fondo}" BorderColor="Transparent">
+            <StackLayout>
+                <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*,*">
+
+                    <Label Grid.Row="0" Grid.Column="0" Text="Cantidad de Alternativas:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center"></Label>
+                    <Entry x:Name="Alternativas" HorizontalTextAlignment="Center" IsEnabled="False" Grid.Column="2" Grid.Row="0" HorizontalOptions="FillAndExpand" TextColor="Black" BackgroundColor="White"></Entry>
+                    <Button  TextColor="White" Clicked="btnMenosAlter" Text="-" x:Name="BtnDecremento"  Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="End" BackgroundColor="{DynamicResource boton}" WidthRequest="80"/>
+                    <Button TextColor="White" Clicked="btnMasAlter" Text="+" x:Name="BtnIncremento"  Grid.Column="3" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Start" BackgroundColor="{DynamicResource boton}" WidthRequest="80"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Cantidad de Criterios:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center"></Label>
+                    <Entry x:Name="criterios" HorizontalTextAlignment="Center" TextChanged="criterios_TextChanged" IsEnabled="False" Grid.Column="2" Grid.Row="1" HorizontalOptions="FillAndExpand" TextColor="Black" Background="White"></Entry>
+                    <Button TextColor="White" Clicked="btnMenosCri" Text="-" x:Name="BtnDecremento2"  Grid.Column="1" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="End" BackgroundColor="{DynamicResource boton}" WidthRequest="80"/>
+                    <Button TextColor="White" Clicked="btnMasCri" Text="+" x:Name="BtnIncremento2"  Grid.Column="3" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Start" BackgroundColor="{DynamicResource boton}" WidthRequest="80"/>
+                    <Picker x:Name="normalizarmetodos" Grid.Row="2" Grid.ColumnSpan="4" BackgroundColor="#135D66" TextColor="#E3FEF7" SelectedIndex="0">
+                                                
+                    </Picker>
+                    <RadioButton x:Name="pesosManuales" GroupName="pesos" Content="Pesos Manuales" Grid.Row="3" IsChecked="True" CheckedChanged="pesosManuales_CheckedChanged"/>
+                    <RadioButton x:Name="pesosEntropia" GroupName="pesos" Content="Pesos Entropia" Grid.Row="3" Grid.Column="2" CheckedChanged="pesosManuales_CheckedChanged"/>
+                </Grid>
+
+                <Grid x:Name="criteriosGrid"  RowDefinitions="*,*,*,*,*,*,*,*,*,*" >
+                    <Frame x:Name="c1" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="0">
+                        <HorizontalStackLayout Grid.ColumnSpan="4" HorizontalOptions="Center">
+                            <Label Grid.Row="3" Grid.Column="0" Text="Criterio 1" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
+                        <RadioButton x:Name = "maxc1" GroupName="maxmin1" Content="MAX" Grid.Row="3" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                        <RadioButton x:Name = "minc1" GroupName="maxmin1" Content="MIN" Grid.Row="3" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                        <Entry x:Name = "peso1" BackgroundColor="White" WidthRequest ="200" Placeholder="Peso" Grid.Column="3" Grid.Row="3" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="End"></Entry>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Frame x:Name="c2" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="1">
+                        <HorizontalStackLayout HorizontalOptions="Center">
+                            <Label Grid.Row="4" Grid.Column="0" Text="Criterio 2" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
+                            <RadioButton x:Name = "maxc2" GroupName="maxmin2" Content="MAX" Grid.Row="4" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc2" GroupName="maxmin2" Content="MIN" Grid.Row="4" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry x:Name = "peso2" BackgroundColor="White" WidthRequest ="200" Placeholder="Peso" Grid.Column="3" Grid.Row="4" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Frame x:Name="c3" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="2">
+                        <HorizontalStackLayout HorizontalOptions="Center">
+                            <Label Grid.Row="5" Grid.Column="0" Text="Criterio 3" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
+                            <RadioButton x:Name = "maxc3" GroupName="maxmin3" Content="MAX" Grid.Row="5" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc3" GroupName="maxmin3" Content="MIN" Grid.Row="5" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry x:Name = "peso3" WidthRequest ="200" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="5" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Frame x:Name="c4" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="3">
+                        <HorizontalStackLayout HorizontalOptions="Center">
+                            <Label Grid.Row="6" Grid.Column="0" Text="Criterio 4" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
+                            <RadioButton x:Name = "maxc4" GroupName="maxmin4" Content="MAX" Grid.Row="6" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc4" GroupName="maxmin4" Content="MIN" Grid.Row="6" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry x:Name = "peso4" WidthRequest ="200" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="6" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Frame x:Name="c5" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="4">
+                        <HorizontalStackLayout HorizontalOptions="Center">
+                            <Label Grid.Row="7" Grid.Column="0" Text="Criterio 5" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
+                            <RadioButton x:Name = "maxc5" GroupName="maxmin5" Content="MAX" Grid.Row="7" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc5" GroupName="maxmin5" Content="MIN" Grid.Row="7" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry WidthRequest ="200" x:Name = "peso5" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="7" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Frame x:Name="c6" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="5">
+                        <HorizontalStackLayout HorizontalOptions="Center">
+                            <Label Grid.Row="8" Grid.Column="0" Text="Criterio 6" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
+                            <RadioButton x:Name = "maxc6" GroupName="maxmin6" Content="MAX" Grid.Row="8" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc6" GroupName="maxmin6" Content="MIN" Grid.Row="8" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry WidthRequest ="200" x:Name = "peso6" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="8" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Frame x:Name="c7" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="6">
+                        <HorizontalStackLayout HorizontalOptions="Center">
+                            <Label Grid.Row="9" Grid.Column="0" Text="Criterio 7" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
+                            <RadioButton x:Name = "maxc7" GroupName="maxmin7" Content="MAX" Grid.Row="9" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc7" GroupName="maxmin7" Content="MIN" Grid.Row="9" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry WidthRequest ="200" x:Name = "peso7" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="9" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                        </HorizontalStackLayout>
+                    </Frame>
+
+                    
+                    
+                    
+                    
+                    
+
+
+                </Grid>
+            </StackLayout>
+        </Frame>
+    </ScrollView>
+</ContentPage>

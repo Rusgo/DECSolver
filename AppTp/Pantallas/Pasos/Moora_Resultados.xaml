@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:DataType="ContentPage"
+             x:Class="AppTp.Pantallas.Pasos.Moora_Resultados"
+             BackgroundColor="{DynamicResource fondo}"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key = "fondo">#E3FEF7</Color>
+            <Color x:Key = "boton">#135D66</Color>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+        <VerticalStackLayout Padding="20" HorizontalOptions="Center">
+            <!-- Título -->
+            <Image Source="tituloresultados.png"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   Margin="2,2,2,2"
+                   WidthRequest="300"/>
+
+
+            <!-- Contenedor para la imagen del podio y los nombres de las alternativas -->
+            <Grid x:Name="PodioGrid" HorizontalOptions="Center">
+                <!-- Imagen del podio -->
+                <Image Source="podio.png"
+                       Aspect="AspectFit"
+                       HorizontalOptions="Center"
+                       WidthRequest="300"
+                       HeightRequest="200"/>
+
+                <!-- Nombres de las alternativas en el podio -->
+                <Label x:Name="Alternativa1Label"
+                       FontSize="Medium" 
+                       TextColor="#135D66"
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"
+                       TranslationY="-170"
+                       FontFamily="Monserrat.ttf"/>
+
+                <Label x:Name="Alternativa2Label"
+                       FontSize="Medium" 
+                       TextColor="#135D66"
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"
+                       TranslationX="-200"
+                       TranslationY="-90"
+                       FontFamily="Monserrat.ttf"/>
+
+                <Label x:Name="Alternativa3Label"
+                       FontSize="Medium" 
+                       TextColor="#135D66"
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"
+                       TranslationX="200"
+                       TranslationY="-80"
+                       FontFamily="Monserrat.ttf"/>
+            </Grid>
+
+            <!-- Contenedor para las medallas restantes -->
+            <VerticalStackLayout x:Name="MedallasStackLayout" Margin="0,40,0,0" HorizontalOptions="Center"/>
+            
+        </VerticalStackLayout>
+        
+    </ScrollView>
+</ContentPage>

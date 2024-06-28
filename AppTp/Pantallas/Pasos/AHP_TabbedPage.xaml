@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTp.Pantallas.Pasos.AHP_TabbedPage"
+             x:DataType="TabbedPage"
+            BarBackgroundColor="#135D66"
+            xmlns:local="clr-namespace:AppTp.Pantallas.Pasos">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Generar Excel" Clicked="ToolbarItem_Clicked" />
+    </TabbedPage.ToolbarItems>
+    <ContentPage Title="Paso 1" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout x:Name="PantallaPaso1">
+                <Label Margin="5,10,0,0" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 1: " FontAttributes="Bold"/>
+                            <Span Text="Paso todo al mismo sentido de optimización"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Paso 2" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout x:Name="PantallaPaso2">
+                <Label Margin="5,10,0,0" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 2: " FontAttributes="Bold"/>
+                            <Span Text="Normalizo, pondero y obtengo la función de agregación"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Grid x:Name="GridNormalizado"
+                    Padding="20"
+                    RowSpacing="10"
+                    ColumnSpacing="10">
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Paso 3" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout>
+                <Label Margin="5,10,0,0" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 2: " FontAttributes="Bold"/>
+                            <Span Text="Normalizo, pondero y obtengo la función de agregación"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Grid x:Name="GridPL"
+            Padding="20"
+            RowSpacing="10"
+            ColumnSpacing="10">
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <local:Moora_Resultados x:Name="resultado" Title="Resultados"/>
+</TabbedPage>
