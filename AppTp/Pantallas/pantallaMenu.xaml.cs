@@ -182,65 +182,68 @@ public partial class pantallaMenu : ContentPage
                 c4.IsVisible = false;
                 c3.IsVisible = false;
             }
-            if (criterios.Text == "7")
+            if (pesosManuales.IsChecked)
             {
-                peso1.IsVisible = true;
-                peso2.IsVisible = true;
-                peso3.IsVisible = true;
-                peso4.IsVisible = true;
-                peso5.IsVisible = true;
-                peso6.IsVisible = true;
-                peso7.IsVisible = true;
-            }
-            else if (criterios.Text == "6")
-            {
-                peso1.IsVisible = true;
-                peso2.IsVisible = true;
-                peso3.IsVisible = true;
-                peso4.IsVisible = true;
-                peso5.IsVisible = true;
-                peso6.IsVisible = true;
-                peso7.IsVisible = false;
-            }
-            else if (criterios.Text == "5")
-            {
-                peso1.IsVisible = true;
-                peso2.IsVisible = true;
-                peso3.IsVisible = true;
-                peso4.IsVisible = true;
-                peso5.IsVisible = true;
-                peso7.IsVisible = false;
-                peso6.IsVisible = false;
-            }
-            else if (criterios.Text == "4")
-            {
-                peso1.IsVisible = true;
-                peso2.IsVisible = true;
-                peso3.IsVisible = true;
-                peso4.IsVisible = true;
-                peso7.IsVisible = false;
-                peso6.IsVisible = false;
-                peso5.IsVisible = false;
-            }
-            else if (criterios.Text == "3")
-            {
-                peso1.IsVisible = true;
-                peso2.IsVisible = true;
-                peso3.IsVisible = true;
-                peso7.IsVisible = false;
-                peso6.IsVisible = false;
-                peso5.IsVisible = false;
-                peso4.IsVisible = false;
-            }
-            else if (criterios.Text == "2")
-            {
-                peso1.IsVisible = true;
-                peso2.IsVisible = true;
-                peso7.IsVisible = false;
-                peso6.IsVisible = false;
-                peso5.IsVisible = false;
-                peso4.IsVisible = false;
-                peso3.IsVisible = false;
+                if (criterios.Text == "7")
+                {
+                    peso1.IsVisible = true;
+                    peso2.IsVisible = true;
+                    peso3.IsVisible = true;
+                    peso4.IsVisible = true;
+                    peso5.IsVisible = true;
+                    peso6.IsVisible = true;
+                    peso7.IsVisible = true;
+                }
+                else if (criterios.Text == "6")
+                {
+                    peso1.IsVisible = true;
+                    peso2.IsVisible = true;
+                    peso3.IsVisible = true;
+                    peso4.IsVisible = true;
+                    peso5.IsVisible = true;
+                    peso6.IsVisible = true;
+                    peso7.IsVisible = false;
+                }
+                else if (criterios.Text == "5")
+                {
+                    peso1.IsVisible = true;
+                    peso2.IsVisible = true;
+                    peso3.IsVisible = true;
+                    peso4.IsVisible = true;
+                    peso5.IsVisible = true;
+                    peso7.IsVisible = false;
+                    peso6.IsVisible = false;
+                }
+                else if (criterios.Text == "4")
+                {
+                    peso1.IsVisible = true;
+                    peso2.IsVisible = true;
+                    peso3.IsVisible = true;
+                    peso4.IsVisible = true;
+                    peso7.IsVisible = false;
+                    peso6.IsVisible = false;
+                    peso5.IsVisible = false;
+                }
+                else if (criterios.Text == "3")
+                {
+                    peso1.IsVisible = true;
+                    peso2.IsVisible = true;
+                    peso3.IsVisible = true;
+                    peso7.IsVisible = false;
+                    peso6.IsVisible = false;
+                    peso5.IsVisible = false;
+                    peso4.IsVisible = false;
+                }
+                else if (criterios.Text == "2")
+                {
+                    peso1.IsVisible = true;
+                    peso2.IsVisible = true;
+                    peso7.IsVisible = false;
+                    peso6.IsVisible = false;
+                    peso5.IsVisible = false;
+                    peso4.IsVisible = false;
+                    peso3.IsVisible = false;
+                }
             }
         }
 

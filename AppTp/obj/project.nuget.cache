@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/bJGoacB7fM=",
+  "dgSpecHash": "morZEBXQuaQ=",
   "success": true,
-  "projectFilePath": "D:\\a\\imprimir\\DEC-Proyecto\\AppTP\\AppTp\\AppTp.csproj",
+  "projectFilePath": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Facu\\.nuget\\packages\\closedxml\\0.102.2\\closedxml.0.102.2.nupkg.sha512",
     "C:\\Users\\Facu\\.nuget\\packages\\communitytoolkit.maui\\9.0.0\\communitytoolkit.maui.9.0.0.nupkg.sha512",

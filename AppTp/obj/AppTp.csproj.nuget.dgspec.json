@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\a\\imprimir\\DEC-Proyecto\\AppTP\\AppTp\\AppTp.csproj": {}
+    "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj": {}
   },
   "projects": {
-    "D:\\a\\imprimir\\DEC-Proyecto\\AppTP\\AppTp\\AppTp.csproj": {
+    "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\a\\imprimir\\DEC-Proyecto\\AppTP\\AppTp\\AppTp.csproj",
+        "projectUniqueName": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj",
         "projectName": "AppTp",
-        "projectPath": "D:\\a\\imprimir\\DEC-Proyecto\\AppTP\\AppTp\\AppTp.csproj",
+        "projectPath": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj",
         "packagesPath": "C:\\Users\\Facu\\.nuget\\packages\\",
-        "outputPath": "D:\\a\\imprimir\\DEC-Proyecto\\AppTP\\AppTp\\obj\\",
+        "outputPath": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

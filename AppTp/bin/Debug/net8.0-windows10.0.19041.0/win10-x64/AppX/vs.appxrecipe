@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.apptp</PackageIdentityName>
     <PackageIdentityPublisher>CN=Facu</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>C182B7DFA9B77C29286BBAF2F078E39BC245DF660F6EE0BC18040BE6E4148783</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.apptp_0.3.13.0_x64__qn00xhbrx8xpc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.apptp_qn00xhbrx8xpc!App</RegisteredUserModeAppID>
@@ -27,344 +27,344 @@
     <RegisteredVersion>0.3.13.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-28T23:30:04.467</Modified>
+      <Modified>2024-06-28T23:38:37.310</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2024-06-28T21:07:34.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.runtimeconfig.json">
       <PackagePath>AppTp.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-28T21:07:33.764</Modified>
+      <Modified>2024-06-28T23:38:36.829</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.dll">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.dll">
       <PackagePath>AppTp.dll</PackagePath>
-      <Modified>2024-06-28T23:30:02.654</Modified>
+      <Modified>2024-06-28T23:38:34.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppTp.exe</PackagePath>
-      <Modified>2024-06-28T23:30:02.842</Modified>
+      <Modified>2024-06-28T23:38:34.689</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-06-28T20:37:33.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:38:51.777</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-06-28T20:38:51.793</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-06-28T20:38:51.813</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-06-28T20:38:52.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-06-28T20:38:52.667</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat.ttf">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat.ttf">
       <PackagePath>Montserrat.ttf</PackagePath>
       <Modified>2024-06-28T20:37:33.594</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-06-28T20:37:33.595</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-06-28T20:37:33.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2024-06-28T20:38:55.456</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:38:55.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2024-06-28T20:38:55.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2024-06-28T20:38:55.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2024-06-28T20:38:56.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-06-28T20:38:56.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2024-06-28T20:38:55.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2024-06-28T20:38:55.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2024-06-28T20:38:55.574</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2024-06-28T20:38:55.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2024-06-28T20:38:55.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2024-06-28T20:38:55.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2024-06-28T20:38:55.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2024-06-28T20:38:55.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2024-06-28T20:38:55.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2024-06-28T20:38:55.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:38:55.460</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2024-06-28T20:38:55.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2024-06-28T20:38:55.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2024-06-28T20:38:55.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2024-06-28T20:38:55.483</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2024-06-28T20:38:55.486</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2024-06-28T20:38:55.489</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2024-06-28T20:38:55.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2024-06-28T20:38:55.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2024-06-28T20:38:55.495</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:38:55.659</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2024-06-28T20:38:55.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2024-06-28T20:38:55.685</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2024-06-28T20:38:55.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2024-06-28T20:38:55.761</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:38:55.615</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2024-06-28T20:38:55.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2024-06-28T20:38:55.625</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2024-06-28T20:38:55.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2024-06-28T20:38:55.651</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:38:55.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2024-06-28T20:38:55.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2024-06-28T20:38:55.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2024-06-28T20:38:55.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2024-06-28T20:38:55.611</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:38:55.770</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2024-06-28T20:38:55.783</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2024-06-28T20:38:55.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2024-06-28T20:38:55.831</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-06-28T20:38:55.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:38:55.458</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2024-06-28T20:38:55.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2024-06-28T20:38:55.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2024-06-28T20:38:55.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2024-06-28T20:38:55.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagendec1.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagendec1.scale-100.png">
       <PackagePath>imagendec1.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.599</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\informacion.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\informacion.scale-100.png">
       <PackagePath>informacion.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.599</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla10.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla10.scale-100.png">
       <PackagePath>medalla10.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.600</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla11.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla11.scale-100.png">
       <PackagePath>medalla11.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.601</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla12.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla12.scale-100.png">
       <PackagePath>medalla12.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.601</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla13.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla13.scale-100.png">
       <PackagePath>medalla13.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.602</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla14.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla14.scale-100.png">
       <PackagePath>medalla14.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla15.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla15.scale-100.png">
       <PackagePath>medalla15.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla4.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla4.scale-100.png">
       <PackagePath>medalla4.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.604</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla5.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla5.scale-100.png">
       <PackagePath>medalla5.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla6.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla6.scale-100.png">
       <PackagePath>medalla6.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla7.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla7.scale-100.png">
       <PackagePath>medalla7.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.606</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla8.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla8.scale-100.png">
       <PackagePath>medalla8.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.606</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla9.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla9.scale-100.png">
       <PackagePath>medalla9.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\podio.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\podio.scale-100.png">
       <PackagePath>podio.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.639</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pregunta.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pregunta.scale-100.png">
       <PackagePath>pregunta.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\titulo.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\titulo.scale-100.png">
       <PackagePath>titulo.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.641</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\transp.scale-100.png">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\transp.scale-100.png">
       <PackagePath>transp.scale-100.png</PackagePath>
       <Modified>2024-06-28T20:37:33.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\a\imprimir\DEC-Proyecto\AppTP\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.deps.json">
+    <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.deps.json">
       <PackagePath>AppTp.deps.json</PackagePath>
-      <Modified>2024-06-28T21:07:33.593</Modified>
+      <Modified>2024-06-28T23:38:36.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Facu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
