@@ -37,7 +37,12 @@ Para instalar la versión de Windows desde la Microsoft Store, sigue estos pasos
 
 [Descargar para Windows](#)
 
-[En caso de que no este disponible](https://github.com/Rusgo/DECSolver/tree/main/Instaladores/Windows)
+#### Instalacion manual en android en caso de que no este disponible en Microsoft Store
+1. Descargar la carpeta del link
+2. Instalar el "certificado" como "editor de confianza"
+3. Ejecutar el instalador
+   
+[Descargar Instalador Windows](https://github.com/Rusgo/DECSolver/tree/main/Instaladores/Windows)
 
 ### Android
 
@@ -47,10 +52,21 @@ Para instalar la versión de Android desde la Google Play Store, sigue estos pas
 
 [Descargar para Android](#)
 
-[En caso de que no este disponible](https://github.com/Rusgo/DECSolver/tree/main/Instaladores/Android)
-## Guía de uso
+#### Instalacion manual en android en caso de que no este disponible en playstore
+1. Descargar el apk
+2. Ejecutar
+3. Otorgar los permisos de confianza solicitados
+   
+[Descargar Instalador](https://github.com/Rusgo/DECSolver/tree/main/Instaladores/Android)
+## WIP
+- Mejorar Diseño visual
+- Ocultar algunos elementos mal ubicados
+- Probar funcionalidades
+- Mejorar las validaciones
+- Agregar controles a los metodos
 
 ## Ejemplos
+
 
 
 
