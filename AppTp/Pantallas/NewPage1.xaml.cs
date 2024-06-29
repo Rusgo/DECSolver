@@ -24,7 +24,6 @@ public partial class NewPage1 : ContentPage
         this.columnas = columns;
         this.metodo = metodo;
         this.maxmin = maxmin;
-        
         this.pesos = pesos; 
         CreateTable(rows, columns, metodo.Trim());
 

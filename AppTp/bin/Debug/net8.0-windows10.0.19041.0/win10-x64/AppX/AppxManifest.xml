@@ -7,7 +7,7 @@
 
     Para obtener más información acerca de los archivos de manifiesto del paquete, vea http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="com.companyname.apptp" Publisher="CN=Facu" Version="0.3.13.0" ProcessorArchitecture="x64" />
+  <Identity Name="com.companyname.apptp" Publisher="CN=Facu" Version="0.4.14.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="436645F6-1063-4E7A-A556-1D80657C40CD" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>AppTp</DisplayName>

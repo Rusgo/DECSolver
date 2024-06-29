@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\metodos\\multicriterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\metodos\\multicriterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\metodos\\ponderacionlineal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\metodos\\ponderacionlineal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\metodos\\moora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\metodos\\moora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\pantallamenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\newpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\newpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,8 +48,12 @@
         },
         {
           "DockedWidth": 1554,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e3fb24c2-2e84-3146-a5f8-bc25bbc68f8a}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -40,13 +64,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Moora.cs",
+              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\Moora.cs",
+              "RelativeDocumentMoniker": "AppTp\\Metodos\\Moora.cs",
+              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\Moora.cs",
+              "RelativeToolTip": "AppTp\\Metodos\\Moora.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T03:26:27.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PonderacionLineal.cs",
+              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\PonderacionLineal.cs",
+              "RelativeDocumentMoniker": "AppTp\\Metodos\\PonderacionLineal.cs",
+              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\PonderacionLineal.cs",
+              "RelativeToolTip": "AppTp\\Metodos\\PonderacionLineal.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T03:18:06.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MultiCriterio.cs",
+              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\MultiCriterio.cs",
+              "RelativeDocumentMoniker": "AppTp\\Metodos\\MultiCriterio.cs",
+              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\MultiCriterio.cs",
+              "RelativeToolTip": "AppTp\\Metodos\\MultiCriterio.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAMwG0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T02:53:38.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewPage2.xaml.cs",
+              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\NewPage2.xaml.cs",
+              "RelativeDocumentMoniker": "AppTp\\Pantallas\\NewPage2.xaml.cs",
+              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\NewPage2.xaml.cs",
+              "RelativeToolTip": "AppTp\\Pantallas\\NewPage2.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T02:47:44.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewPage1.xaml.cs",
+              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\NewPage1.xaml.cs",
+              "RelativeDocumentMoniker": "AppTp\\Pantallas\\NewPage1.xaml.cs",
+              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\NewPage1.xaml.cs",
+              "RelativeToolTip": "AppTp\\Pantallas\\NewPage1.xaml.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAAAMsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T02:46:52.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "pantallaMenu.xaml.cs",
               "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml.cs",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenu.xaml.cs",
               "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml.cs",
               "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenu.xaml.cs",
-              "ViewState": "AQIAAKEAAAAAAAAAAAAAAPYAAAANAAAA",
+              "ViewState": "AQIAAPYAAAAAAAAAAIAwwAYBAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T23:37:36.822Z",
               "EditorCaption": ""

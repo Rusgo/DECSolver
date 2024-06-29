@@ -74,6 +74,16 @@ namespace AppTp.Metodos
                 for (int i = 0; i < matriz.GetLength(0); i++)
                 {
                     float res = verificar((this.metodo == 0) ? matriz[i, j] : ((float)Math.Pow(matriz[i, j], 2)), max[j]);
+                    if(metodo==1)
+                    {
+                        matriz[i, j] = MathF.Sqrt(res);
+                    }
+                    else if (metodo==0)
+                        {
+                        matriz[i, j] = res;
+                    }
+
+                    
                     suma += res;
                 }
                 if(metodo == 2)

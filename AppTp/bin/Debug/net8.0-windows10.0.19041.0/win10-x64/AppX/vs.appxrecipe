@@ -19,36 +19,36 @@
     <WindowsSdkPath>
     </WindowsSdkPath>
     <LayoutDir>D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C182B7DFA9B77C29286BBAF2F078E39BC245DF660F6EE0BC18040BE6E4148783</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>com.companyname.apptp_0.3.13.0_x64__qn00xhbrx8xpc</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>6C9639C0E86ED761D2EA92767DCE01CCC8F3B83AADC1D033CD33891A04588D39</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.companyname.apptp_0.4.14.0_x64__qn00xhbrx8xpc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.apptp_qn00xhbrx8xpc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.apptp</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Facu</RegisteredPackagePublisher>
-    <RegisteredVersion>0.3.13.0</RegisteredVersion>
+    <RegisteredVersion>0.4.14.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-28T23:38:37.310</Modified>
+      <Modified>2024-06-29T03:34:37.410</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-28T21:07:34.115</Modified>
+      <Modified>2024-06-29T02:51:41.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.runtimeconfig.json">
       <PackagePath>AppTp.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-28T23:38:36.829</Modified>
+      <Modified>2024-06-29T02:51:41.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.dll">
       <PackagePath>AppTp.dll</PackagePath>
-      <Modified>2024-06-28T23:38:34.519</Modified>
+      <Modified>2024-06-29T03:34:36.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppTp.exe</PackagePath>
-      <Modified>2024-06-28T23:38:34.689</Modified>
+      <Modified>2024-06-29T03:34:36.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -364,7 +364,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\a\curso spring\Proyecto final\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.deps.json">
       <PackagePath>AppTp.deps.json</PackagePath>
-      <Modified>2024-06-28T23:38:36.566</Modified>
+      <Modified>2024-06-29T02:51:41.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Facu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

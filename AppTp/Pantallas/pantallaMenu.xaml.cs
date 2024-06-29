@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using AppTp.Entidades;
 using static AppTp.Entidades.Alternativa;
 using System.Runtime.CompilerServices;
+using System.Globalization;
 namespace AppTp.Pantallas;
 
 public partial class pantallaMenu : ContentPage
@@ -12,6 +13,9 @@ public partial class pantallaMenu : ContentPage
 	public pantallaMenu(string metodo)
 	{
 		InitializeComponent();
+        //para que se use solo punto
+        CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+        CultureInfo.DefaultThreadCurrentUICulture = new CultureInfo("en-US");
         this.metodo = metodo;
         c3.IsVisible = false;
         c4.IsVisible = false;

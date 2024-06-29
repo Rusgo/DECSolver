@@ -12,7 +12,6 @@ namespace AppTp.Metodos
         public Moora(float[,] matriz, List<float> pesos, List<bool> max,int metodo) : base(matriz, pesos, max, metodo)
         {
         }
-
         public override void agregacion(int filas, int columnas)
         {
             float acu = 0;
