@@ -12,149 +12,149 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppTp
-build_property.ProjectDir = D:\a\curso spring\Proyecto final\DECSolver\AppTp\
+build_property.ProjectDir = C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/App.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/AppShell.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/MainPage.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Ahp.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Ahp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Ahp.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Ahp.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Ahp.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Inicio.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Inicio.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Inicio.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Inicio.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Inicio.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/NewPage1.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/NewPage1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.NewPage1.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\NewPage1.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\NewPage1.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/NewPage2.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/NewPage2.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.NewPage2.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\NewPage2.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\NewPage2.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/pantallaMenu.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/pantallaMenu.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.pantallaMenu.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\pantallaMenu.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\pantallaMenu.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/pantallaMenuPromethee.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/pantallaMenuPromethee.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.pantallaMenuPromethee.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\pantallaMenuPromethee.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\pantallaMenuPromethee.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/AHP_TabbedPage.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/AHP_TabbedPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.AHP_TabbedPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\AHP_TabbedPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\AHP_TabbedPage.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/ElectrePage.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/ElectrePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.ElectrePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\ElectrePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\ElectrePage.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/MooraPRTabPage.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/MooraPRTabPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.MooraPRTabPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\MooraPRTabPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\MooraPRTabPage.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/MooraTabPage.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/MooraTabPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.MooraTabPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\MooraTabPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\MooraTabPage.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/Moora_Resultados.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Moora_Resultados.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Moora_Resultados.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Moora_Resultados.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Moora_Resultados.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/Prometee_Paso1_calculoPrefyFuncion.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_Paso1_calculoPrefyFuncion.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_Paso1_calculoPrefyFuncion.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Prometee_Paso1_calculoPrefyFuncion.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Prometee_Paso1_calculoPrefyFuncion.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/Prometee_Paso2_Preferencia.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_Paso2_Preferencia.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_Paso2_Preferencia.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Prometee_Paso2_Preferencia.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Prometee_Paso2_Preferencia.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/Prometee_paso3_calculoFlujos.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_paso3_calculoFlujos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_paso3_calculoFlujos.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Prometee_paso3_calculoFlujos.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Prometee_paso3_calculoFlujos.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/Prometee_Paso4_Preorden.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_Paso4_Preorden.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_Paso4_Preorden.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Prometee_Paso4_Preorden.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Prometee_Paso4_Preorden.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/Prometee_TabbedPage.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_TabbedPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_TabbedPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Prometee_TabbedPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Prometee_TabbedPage.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/TabPage.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/TabPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.TabPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\TabPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\TabPage.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Pasos/TOPSISTabPage.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/TOPSISTabPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.TOPSISTabPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\TOPSISTabPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\TOPSISTabPage.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Pantallas/Resultados.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Resultados.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Resultados.xaml
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Resultados.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Resultados.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Resources/Styles/Colors.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/a/curso spring/Proyecto final/DECSolver/AppTp/Resources/Styles/Styles.xaml]
+[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
