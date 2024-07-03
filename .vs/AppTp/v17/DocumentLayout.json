@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\",
+  "WorkspaceRootPath": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\pantallamenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\pantallas\\pantallamenupromethee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenupromethee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\pantallas\\pantallamenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\pantallas\\pantallamenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -14,50 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "pantallaMenuPromethee.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenuPromethee.xaml.cs",
+              "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenuPromethee.xaml.cs",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenuPromethee.xaml.cs",
+              "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenuPromethee.xaml.cs",
+              "ViewState": "AQIAAPsAAAAAAAAAAAAtwAcBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:14:08.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pantallaMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml.cs",
+              "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml.cs",
+              "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenu.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwBEAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:45:02.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "pantallaMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenu.xaml",
-              "ToolTip": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
               "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenu.xaml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAC4AAAAcAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-02T12:36:33.561Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1554,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{228e1580-0ef9-329a-bf07-81ebc3dcbf7e}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }

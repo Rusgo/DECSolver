@@ -78,44 +78,93 @@ public partial class pantallaMenu : ContentPage
         }
 
     }
+
+    private bool isNumeric(string cadena)
+    {
+        return float.TryParse(cadena, out _);
+    }
     private async void ToolbarItem_Clicked(object sender, EventArgs e)
     {
-        
-        ObservableCollection<alternativa> alternativas = new ObservableCollection<alternativa>();
-        for (int i = 0; i < int.Parse(Alternativas.Text); i++)
+        if(normalizarmetodos.SelectedItem == null)
         {
-            alternativas.Add(new alternativa(i+1));
-        }
-        List<bool> maxmin = new List<bool> { maxc1.IsChecked, maxc2.IsChecked, maxc3.IsChecked, maxc4.IsChecked, maxc5.IsChecked, maxc6.IsChecked, maxc7.IsChecked };
-        List<float> peso = new List<float> { float.Parse((peso1.Text ?? "0").Replace(',', '.')), float.Parse((peso2.Text ?? "0").Replace(',', '.')), float.Parse((peso3.Text ?? "0").Replace(',', '.')), float.Parse((peso4.Text ?? "0").Replace(',', '.')), float.Parse((peso5.Text ?? "0").Replace(',', '.')), float.Parse((peso6.Text ?? "0").Replace(',', '.')), float.Parse((peso7.Text ?? "0").Replace(',', '.')) };
-        peso = normalizarPesos(peso);
-        bool validacionPesos = verificarSuma(peso);
-        if (validacionPesos || metodo == "Método AHP" || pesosEntropia.IsChecked)
-        {
-            if (metodo == "Método AHP")
-            {
-                List<AHP> tablasGlobal = new List<AHP>();
-                Navigation.PushAsync(new Ahp(tablasGlobal, int.Parse(criterios.Text), alternativas.Count, 0, maxmin));
-            }
-            else
-            {
-                if (pesosEntropia.IsChecked)
-                {
-                    List<float> pesosVacio = new List<float>();
-                    Navigation.PushAsync(new NewPage1(alternativas.Count, int.Parse(criterios.Text), maxmin, pesosVacio, metodo, normalizarmetodos.SelectedIndex));
-                }
-                else
-                {
-                    Navigation.PushAsync(new NewPage1(alternativas.Count, int.Parse(criterios.Text), maxmin, peso, metodo, normalizarmetodos.SelectedIndex));
-                }
-
-                
-            }
+            DisplayAlert("Error en la seleccion del metodo de normalizacion", "Debe seleccionar un metodo de normalizacion", "OK");
         }
         else
         {
-            await DisplayAlert("Error en el valor de los pesos", "La sumatoria de los pesos debe ser igual a 1 / suma: " + sumarPesos(peso), "OK");
+            ObservableCollection<alternativa> alternativas = new ObservableCollection<alternativa>();
+            for (int i = 0; i < int.Parse(Alternativas.Text); i++)
+            {
+                alternativas.Add(new alternativa(i + 1));
+            }
+            List<bool> maxmin = new List<bool> { maxc1.IsChecked, maxc2.IsChecked, maxc3.IsChecked, maxc4.IsChecked, maxc5.IsChecked, maxc6.IsChecked, maxc7.IsChecked };
+            if (peso1.Text == "")
+            {
+                peso1.Text = "0";
+            }
+            if (peso2.Text == "")
+            {
+                peso2.Text = "0";
+            }
+            if (peso3.Text == "")
+            {
+                peso3.Text = "0";
+            }
+            if (peso4.Text == "")
+            {
+                peso4.Text = "0";
+            }
+            if (peso5.Text == "")
+            {
+                peso5.Text = "0";
+            }
+            if (peso6.Text == "")
+            {
+                peso6.Text = "0";
+            }
+            if (peso7.Text == "")
+            {
+                peso7.Text = "0";
+            }
+            if (isNumeric(peso1.Text ?? "0") && isNumeric(peso2.Text ?? "0") && isNumeric(peso3.Text ?? "0") && isNumeric(peso4.Text ?? "0") && isNumeric(peso5.Text ?? "0") && isNumeric(peso6.Text ?? "0") && isNumeric(peso7.Text ?? "0"))
+            {
+                List<float> peso = new List<float> { float.Parse((peso1.Text ?? "0").Replace(',', '.')), float.Parse((peso2.Text ?? "0").Replace(',', '.')), float.Parse((peso3.Text ?? "0").Replace(',', '.')), float.Parse((peso4.Text ?? "0").Replace(',', '.')), float.Parse((peso5.Text ?? "0").Replace(',', '.')), float.Parse((peso6.Text ?? "0").Replace(',', '.')), float.Parse((peso7.Text ?? "0").Replace(',', '.')) };
+                peso = normalizarPesos(peso);
+                bool validacionPesos = verificarSuma(peso);
+                if (validacionPesos || metodo == "Método AHP" || pesosEntropia.IsChecked)
+                {
+                    if (metodo == "Método AHP")
+                    {
+                        List<AHP> tablasGlobal = new List<AHP>();
+                        Navigation.PushAsync(new Ahp(tablasGlobal, int.Parse(criterios.Text), alternativas.Count, 0, maxmin));
+                    }
+                    else
+                    {
+                        if (pesosEntropia.IsChecked)
+                        {
+                            List<float> pesosVacio = new List<float>();
+                            Navigation.PushAsync(new NewPage1(alternativas.Count, int.Parse(criterios.Text), maxmin, pesosVacio, metodo, normalizarmetodos.SelectedIndex));
+                        }
+                        else
+                        {
+                            Navigation.PushAsync(new NewPage1(alternativas.Count, int.Parse(criterios.Text), maxmin, peso, metodo, normalizarmetodos.SelectedIndex));
+                        }
+
+
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("Error en el valor de los pesos", "La sumatoria de los pesos debe ser igual a 1 / suma: " + sumarPesos(peso), "OK");
+                }
+            }
+            else
+            {
+                await DisplayAlert("Error en la carga de datos", "Todos los pesos deben estar representados con numeros", "OK");
+            }
         }
+        
+        
+        
 
 
 

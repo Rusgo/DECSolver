@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using AppTp.Entidades;
 using static AppTp.Entidades.Alternativa;
 using System.Runtime.CompilerServices;
+using System.Globalization;
 namespace AppTp.Pantallas;
 
 public partial class pantallaMenuPromethe : ContentPage
@@ -12,6 +13,8 @@ public partial class pantallaMenuPromethe : ContentPage
 	public pantallaMenuPromethe(string metodo)
 	{
 		InitializeComponent();
+        CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+        CultureInfo.DefaultThreadCurrentUICulture = new CultureInfo("en-US");
         this.metodo = metodo;
         List<String> metodos = new List<String> { "suma", "raiz", "rango" };
         List<String> funciones = new List<String> { "Verdadero Criterio", "Cuasi Criterio", "Seudo Criterio con Preferencia Lineal", "Level Criterio", "Criterio con preferencia lineal y area de indiferencia", "Criterio Gaussiano" };
@@ -71,68 +74,116 @@ public partial class pantallaMenuPromethe : ContentPage
         }
 
     }
+
+    private bool isNumeric(string cadena)
+    {
+        return float.TryParse(cadena, out _);     
+    }
     private async void ToolbarItem_Clicked(object sender, EventArgs e)
     {
-        ObservableCollection<alternativa> alternativas = new ObservableCollection<alternativa>();
-        for (int i = 0; i < int.Parse(Alternativas.Text); i++)
+        if (normalizarmetodos.SelectedItem == null)
         {
-            alternativas.Add(new alternativa(i+1));
-        }
-        List<bool> maxmin = new List<bool> { maxc1.IsChecked, maxc2.IsChecked, maxc3.IsChecked, maxc4.IsChecked, maxc5.IsChecked, maxc6.IsChecked, maxc7.IsChecked };
-        List<float> peso = new List<float> { float.Parse((peso1.Text ?? "0").Replace(',', '.')), float.Parse((peso2.Text ?? "0").Replace(',', '.')), float.Parse((peso3.Text ?? "0").Replace(',', '.')), float.Parse((peso4.Text ?? "0").Replace(',', '.')), float.Parse((peso5.Text ?? "0").Replace(',', '.')), float.Parse((peso6.Text ?? "0").Replace(',', '.')), float.Parse((peso7.Text ?? "0").Replace(',', '.')) };
-        peso = normalizarPesos(peso);
-        bool validacionPesos = verificarSuma(peso);
-        if (verificarSuma(peso))
-        {
-            List<int> funciones = new List<int>();
-            List<float> p = new List<float>();
-            List<float> q = new List<float>();
-            List<float> o = new List<float>();
-            funciones.Add(p1.SelectedIndex + 1);
-            funciones.Add(p2.SelectedIndex + 1);
-            p.Add(float.Parse(pp1.Text ?? "0"));
-            p.Add(float.Parse(pp2.Text ?? "0"));
-            q.Add(float.Parse(q1.Text ?? "0"));
-            q.Add(float.Parse(q2.Text ?? "0"));
-            o.Add(float.Parse(o1.Text ?? "0"));
-            o.Add(float.Parse(o2.Text ?? "0"));
-            if (int.Parse(criterios.Text) == 3)
-            {
-                funciones.Add(p3.SelectedIndex + 1);
-                p.Add(float.Parse(pp3.Text ?? "0"));
-                q.Add(float.Parse(q3.Text ?? "0")); o.Add(float.Parse(o3.Text ?? "0"));
-            }
-            if (int.Parse(criterios.Text) == 4)
-            {
-                funciones.Add(p4.SelectedIndex + 1);
-                p.Add(float.Parse(pp4.Text ?? "0"));
-                q.Add(float.Parse(q4.Text ?? "0")); o.Add(float.Parse(o3.Text ?? "0"));
-            }
-            if (int.Parse(criterios.Text) == 5)
-            {
-                funciones.Add(p5.SelectedIndex + 1);
-                p.Add(float.Parse(pp5.Text ?? "0"));
-                q.Add(float.Parse(q5.Text ?? "0")); o.Add(float.Parse(o5.Text ?? "0"));
-            }
-            if (int.Parse(criterios.Text) == 6)
-            {
-                funciones.Add(p6.SelectedIndex + 1);
-                p.Add(float.Parse(pp6.Text ?? "0"));
-                q.Add(float.Parse(q6.Text ?? "0")); o.Add(float.Parse(o6.Text ?? "0"));
-            }
-            if (int.Parse(criterios.Text) == 7)
-            {
-                funciones.Add(p7.SelectedIndex + 1);
-                p.Add(float.Parse(pp7.Text ?? "0"));
-                q.Add(float.Parse(q7.Text ?? "0")); o.Add(float.Parse(o7.Text ?? "0"));
-
-            }
-
-            Navigation.PushAsync(new NewPage2(alternativas.Count, int.Parse(criterios.Text), maxmin, peso, metodo, funciones, p, q, o,normalizarmetodos.SelectedIndex));
+            DisplayAlert("Error en la seleccion del metodo de normalizacion", "Debe seleccionar un metodo de normalizacion", "OK");
         }
         else
         {
-            await DisplayAlert("Error en el valor de los pesos", "La sumatoria de los pesos debe ser igual a 1 / suma: " + sumarPesos(peso), "OK");
+            ObservableCollection<alternativa> alternativas = new ObservableCollection<alternativa>();
+            for (int i = 0; i < int.Parse(Alternativas.Text); i++)
+            {
+                alternativas.Add(new alternativa(i + 1));
+            }
+            List<bool> maxmin = new List<bool> { maxc1.IsChecked, maxc2.IsChecked, maxc3.IsChecked, maxc4.IsChecked, maxc5.IsChecked, maxc6.IsChecked, maxc7.IsChecked };
+            if (peso1.Text == "")
+            {
+                peso1.Text = "0";
+            }
+            if (peso2.Text == "")
+            {
+                peso2.Text = "0";
+            }
+            if (peso3.Text == "")
+            {
+                peso3.Text = "0";
+            }
+            if (peso4.Text == "")
+            {
+                peso4.Text = "0";
+            }
+            if (peso5.Text == "")
+            {
+                peso5.Text = "0";
+            }
+            if (peso6.Text == "")
+            {
+                peso6.Text = "0";
+            }
+            if (peso7.Text == "")
+            {
+                peso7.Text = "0";
+            }
+            if (isNumeric(peso1.Text ?? "0") && isNumeric(peso2.Text ?? "0") && isNumeric(peso3.Text ?? "0") && isNumeric(peso4.Text ?? "0") && isNumeric(peso5.Text ?? "0") && isNumeric(peso6.Text ?? "0") && isNumeric(peso7.Text ?? "0"))
+            {
+                List<float> peso = new List<float> { float.Parse((peso1.Text ?? "0").Replace(',', '.')), float.Parse((peso2.Text ?? "0").Replace(',', '.')), float.Parse((peso3.Text ?? "0").Replace(',', '.')), float.Parse((peso4.Text ?? "0").Replace(',', '.')), float.Parse((peso5.Text ?? "0").Replace(',', '.')), float.Parse((peso6.Text ?? "0").Replace(',', '.')), float.Parse((peso7.Text ?? "0").Replace(',', '.')) };
+                peso = normalizarPesos(peso);
+                bool validacionPesos = verificarSuma(peso);
+                if (verificarSuma(peso))
+                {
+                    List<int> funciones = new List<int>();
+                    List<float> p = new List<float>();
+                    List<float> q = new List<float>();
+                    List<float> o = new List<float>();
+                    funciones.Add(p1.SelectedIndex + 1);
+                    funciones.Add(p2.SelectedIndex + 1);
+                    p.Add(float.Parse(pp1.Text ?? "0"));
+                    p.Add(float.Parse(pp2.Text ?? "0"));
+                    q.Add(float.Parse(q1.Text ?? "0"));
+                    q.Add(float.Parse(q2.Text ?? "0"));
+                    o.Add(float.Parse(o1.Text ?? "0"));
+                    o.Add(float.Parse(o2.Text ?? "0"));
+                    if (int.Parse(criterios.Text) == 3)
+                    {
+                        funciones.Add(p3.SelectedIndex + 1);
+                        p.Add(float.Parse(pp3.Text ?? "0"));
+                        q.Add(float.Parse(q3.Text ?? "0")); o.Add(float.Parse(o3.Text ?? "0"));
+                    }
+                    if (int.Parse(criterios.Text) == 4)
+                    {
+                        funciones.Add(p4.SelectedIndex + 1);
+                        p.Add(float.Parse(pp4.Text ?? "0"));
+                        q.Add(float.Parse(q4.Text ?? "0")); o.Add(float.Parse(o3.Text ?? "0"));
+                    }
+                    if (int.Parse(criterios.Text) == 5)
+                    {
+                        funciones.Add(p5.SelectedIndex + 1);
+                        p.Add(float.Parse(pp5.Text ?? "0"));
+                        q.Add(float.Parse(q5.Text ?? "0")); o.Add(float.Parse(o5.Text ?? "0"));
+                    }
+                    if (int.Parse(criterios.Text) == 6)
+                    {
+                        funciones.Add(p6.SelectedIndex + 1);
+                        p.Add(float.Parse(pp6.Text ?? "0"));
+                        q.Add(float.Parse(q6.Text ?? "0")); o.Add(float.Parse(o6.Text ?? "0"));
+                    }
+                    if (int.Parse(criterios.Text) == 7)
+                    {
+                        funciones.Add(p7.SelectedIndex + 1);
+                        p.Add(float.Parse(pp7.Text ?? "0"));
+                        q.Add(float.Parse(q7.Text ?? "0")); o.Add(float.Parse(o7.Text ?? "0"));
+
+                    }
+
+                    Navigation.PushAsync(new NewPage2(alternativas.Count, int.Parse(criterios.Text), maxmin, peso, metodo, funciones, p, q, o, normalizarmetodos.SelectedIndex));
+                }
+                else
+                {
+                    await DisplayAlert("Error en el valor de los pesos", "La sumatoria de los pesos debe ser igual a 1 / suma: " + sumarPesos(peso), "OK");
+                }
+            }
+            else
+            {
+                await DisplayAlert("Error en la carga de datos", "Todos los pesos deben estar representados con numeros", "OK");
+            }
+            
         }
         
         
