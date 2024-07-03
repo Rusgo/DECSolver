@@ -21,15 +21,16 @@
             <StackLayout>
                 <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*,*">
 
-                    <Label Grid.Row="0" Grid.Column="0" Text="Cantidad de Alternativas:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center"></Label>
+                    <Label Grid.Row="0" Grid.Column="0" Text="Cantidad de Alternativas:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center" FontSize="Small"></Label>
                     <Entry x:Name="Alternativas" HorizontalTextAlignment="Center" IsEnabled="False" Grid.Column="2" Grid.Row="0" HorizontalOptions="FillAndExpand" TextColor="Black" BackgroundColor="White"></Entry>
                     <Button  TextColor="White" Clicked="btnMenosAlter" Text="-" x:Name="BtnDecremento"  Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="End" BackgroundColor="{DynamicResource boton}" WidthRequest="80"/>
                     <Button TextColor="White" Clicked="btnMasAlter" Text="+" x:Name="BtnIncremento"  Grid.Column="3" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Start" BackgroundColor="{DynamicResource boton}" WidthRequest="80"/>
-                    <Label Grid.Row="1" Grid.Column="0" Text="Cantidad de Criterios:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center"></Label>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Cantidad de Criterios:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center" FontSize="Small"></Label>
                     <Entry x:Name="criterios" HorizontalTextAlignment="Center" TextChanged="criterios_TextChanged" IsEnabled="False" Grid.Column="2" Grid.Row="1" HorizontalOptions="FillAndExpand" TextColor="Black" Background="White"></Entry>
                     <Button TextColor="White" Clicked="btnMenosCri" Text="-" x:Name="BtnDecremento2"  Grid.Column="1" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="End" BackgroundColor="{DynamicResource boton}" WidthRequest="80"/>
                     <Button TextColor="White" Clicked="btnMasCri" Text="+" x:Name="BtnIncremento2"  Grid.Column="3" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Start" BackgroundColor="{DynamicResource boton}" WidthRequest="80"/>
-                    <Picker x:Name="normalizarmetodos" Grid.Row="2" Grid.ColumnSpan="4" BackgroundColor="White" TextColor="Black" SelectedIndex="0">
+                    <Label x:Name="lblMetodosNormalizacion" Grid.Row="2" Grid.Column="0" Text="Método de normalización: " FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center" FontSize="Small"></Label>
+                    <Picker x:Name="normalizarmetodos" Grid.Row="2" Grid.Column="2" BackgroundColor="White" TextColor="Black" SelectedIndex="0">
                                                 
                     </Picker>
                     <RadioButton x:Name="pesosManuales" GroupName="pesos" Content="Pesos Manuales" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" IsChecked="True" CheckedChanged="pesosManuales_CheckedChanged"/>

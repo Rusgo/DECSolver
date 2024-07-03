@@ -24,14 +24,21 @@ public partial class pantallaMenu : ContentPage
         c7.IsVisible = false;
         Alternativas.Text = "2";
         criterios.Text = "2";
-        List<String> metodos = new List<String> { "suma","raiz","rango"};
+        List<String> metodos = new List<String> { "Suma","Raiz","Rango"};
         List<String> funciones = new List<String> { "Verdadero Criterio", "Cuasi Criterio", "Seudo Criterio con Preferencia Lineal", "Level Criterio", "Criterio con preferencia lineal y area de indiferencia", "Criterio Gaussiano" };
         
         normalizarmetodos.ItemsSource = metodos;
+        if (metodo == "Método MOORA" || metodo == "          MOORA Punto de Referencia" || metodo == "Método AHP")
+        {
+            normalizarmetodos.IsVisible = false;
+            lblMetodosNormalizacion.IsVisible = false;
+        }
         if (metodo == "Método AHP")
         {
             c1.IsVisible = false; c2.IsVisible = false;
             otro = false;
+            pesosManuales.IsVisible = false;
+            pesosEntropia.IsVisible = false;
         }
         else
         {

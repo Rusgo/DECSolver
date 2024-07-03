@@ -21,28 +21,28 @@
             <StackLayout>
                 <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*,*,*">
 
-                    <Label Grid.Row="0" Grid.Column="0" Text="Cantidad de Alternativas:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center"></Label>
+                    <Label Grid.Row="0" Grid.Column="0" Text="Cantidad de Alternativas:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center" FontSize="Small"></Label>
                     <Entry x:Name="Alternativas" HorizontalTextAlignment="Center" IsEnabled="False" Grid.Column="2" Grid.Row="0" HorizontalOptions="FillAndExpand" TextColor="Black" BackgroundColor="White"></Entry>
                     <Button  TextColor="White" Clicked="btnMenosAlter" Text="-" x:Name="BtnDecremento"  Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="{DynamicResource boton}"/>
                     <Button TextColor="White" Clicked="btnMasAlter" Text="+" x:Name="BtnIncremento"  Grid.Column="3" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="{DynamicResource boton}"/>
-                    <Label Grid.Row="1" Grid.Column="0" Text="Cantidad de Criterios:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center"></Label>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Cantidad de Criterios:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center" FontSize="Small"></Label>
                     <Entry x:Name="criterios" HorizontalTextAlignment="Center" TextChanged="criterios_TextChanged" IsEnabled="False" Grid.Column="2" Grid.Row="1" HorizontalOptions="FillAndExpand" TextColor="Black" Background="White" ></Entry>
                     <Button TextColor="White" Clicked="btnMenosCri" Text="-" x:Name="BtnDecremento2"  Grid.Column="1" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="{DynamicResource boton}"/>
                     <Button TextColor="White" Clicked="btnMasCri" Text="+" x:Name="BtnIncremento2"  Grid.Column="3" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="{DynamicResource boton}"/>
-                    <Picker x:Name="normalizarmetodos" Grid.Row="2" Grid.ColumnSpan="4" BackgroundColor="#135D66" TextColor="#E3FEF7" SelectedIndex="0">
-
-                    </Picker>
+                    <Label Grid.Row="2" Grid.Column="0" Text="Método de normalización:" Grid.ColumnSpan="2" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center" FontSize="Small"></Label>
+                    <Picker x:Name="normalizarmetodos" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="White" TextColor="Black" SelectedIndex="0"></Picker>
 
                 </Grid>
 
                 <Grid x:Name="criteriosGrid"  RowDefinitions="*,*,*,*,*,*,*,*,*,*" >
                     <Frame x:Name="c1" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="0">
-                        <HorizontalStackLayout Grid.ColumnSpan="4" HorizontalOptions="Center">
-                            <Label Grid.Row="3" Grid.Column="0" Text="Criterio 1" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
-                        <RadioButton x:Name = "maxc1" GroupName="maxmin1" Content="MAX" Grid.Row="3" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                        <RadioButton x:Name = "minc1" GroupName="maxmin1" Content="MIN" Grid.Row="3" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                        <Entry x:Name = "peso1" BackgroundColor="White" WidthRequest ="200" Placeholder="Peso" Grid.Column="3" Grid.Row="3" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="End"></Entry>
-                            <Picker x:Name="p1" Title="Select el numero de funcion">
+                        <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*,*,*">
+                            <Label Grid.Row="0" Grid.Column="0" Text="Criterio 1" FontAttributes="Bold" FontSize="Small" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}" HorizontalOptions="Center"></Label>
+                            <RadioButton x:Name = "maxc1" GroupName="maxmin1" Content="MAX" Grid.Row="0" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White" HorizontalOptions="Center"></RadioButton>
+                            <RadioButton x:Name = "minc1" GroupName="maxmin1" Content="MIN" Grid.Row="0" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White" HorizontalOptions="Center"></RadioButton>
+                            <Entry x:Name = "peso1" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="0" FontFamily="Monserrat.ttf" Margin="0,0,5,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                            <Label Text="Función de preferencia relativa:" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" TextColor="{DynamicResource labels}"></Label>
+                            <Picker x:Name="p1" Grid.Column="0" HorizontalOptions="FillAndExpand" BackgroundColor="White" TextColor="Black" Grid.Row="2" Margin="0,1,1,1">
                                 <Picker.Items>
                                     <x:String>1</x:String>
                                     <x:String>2</x:String>
@@ -53,19 +53,19 @@
                                     <x:String>7</x:String>
                                 </Picker.Items>
                             </Picker>
-                            <Entry x:Name="pp1" Placeholder="p"/>
-                            <Entry x:Name="q1" Placeholder="q"/>
-                            <Entry x:Name="o1" Placeholder="o"/>
-                            
-                        </HorizontalStackLayout>
+                            <Entry x:Name="pp1" Placeholder="p" Grid.Column="1" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="q1" Placeholder="q" Grid.Column="2" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="o1" Placeholder="o" Grid.Column="3" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                        </Grid>
                     </Frame>
                     <Frame x:Name="c2" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="1">
-                        <HorizontalStackLayout HorizontalOptions="Center">
-                            <Label Grid.Row="4" Grid.Column="0" Text="Criterio 2" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
-                            <RadioButton x:Name = "maxc2" GroupName="maxmin2" Content="MAX" Grid.Row="4" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <RadioButton x:Name = "minc2" GroupName="maxmin2" Content="MIN" Grid.Row="4" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <Entry x:Name = "peso2" BackgroundColor="White" WidthRequest ="200" Placeholder="Peso" Grid.Column="3" Grid.Row="4" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand"></Entry>
-                            <Picker x:Name="p2" Title="Select el numero de funcion">
+                        <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*,*,*">
+                            <Label Grid.Row="0" Grid.Column="0" Text="Criterio 2" FontAttributes="Bold" FontFamily="Monserrat.ttf" FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
+                            <RadioButton x:Name = "maxc2" GroupName="maxmin2" Content="MAX" Grid.Row="0" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc2" GroupName="maxmin2" Content="MIN" Grid.Row="0" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry x:Name = "peso2" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="0" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                            <Label Text="Función de preferencia relativa:" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" TextColor="{DynamicResource labels}"></Label>
+                            <Picker x:Name="p2" Grid.Column="0" HorizontalOptions="FillAndExpand" BackgroundColor="White" TextColor="Black" Grid.Row="2" Margin="0,1,1,1">
                                 <Picker.Items>
                                     <x:String>1</x:String>
                                     <x:String>2</x:String>
@@ -76,18 +76,19 @@
                                     <x:String>7</x:String>
                                 </Picker.Items>
                             </Picker>
-                            <Entry x:Name="pp2" Placeholder="p"/>
-                            <Entry x:Name="q2" Placeholder="q"/>
-                            <Entry x:Name="o2" Placeholder="o"/>
-                        </HorizontalStackLayout>
+                            <Entry x:Name="pp2" Placeholder="p" Grid.Column="1" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="q2" Placeholder="q" Grid.Column="2" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="o2" Placeholder="o" Grid.Column="3" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                        </Grid>
                     </Frame>
                     <Frame x:Name="c3" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="2">
-                        <HorizontalStackLayout HorizontalOptions="Center">
-                            <Label Grid.Row="5" Grid.Column="0" Text="Criterio 3" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
-                            <RadioButton x:Name = "maxc3" GroupName="maxmin3" Content="MAX" Grid.Row="5" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <RadioButton x:Name = "minc3" GroupName="maxmin3" Content="MIN" Grid.Row="5" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <Entry x:Name = "peso3" WidthRequest ="200" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="5" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand"></Entry>
-                            <Picker x:Name="p3" Title="Select el numero de funcion">
+                        <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*,*,*">
+                            <Label Grid.Row="0" Grid.Column="0" Text="Criterio 3" FontAttributes="Bold" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}" FontSize="Small" HorizontalOptions="Center"></Label>
+                            <RadioButton x:Name = "maxc3" GroupName="maxmin3" Content="MAX" Grid.Row="0" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc3" GroupName="maxmin3" Content="MIN" Grid.Row="0" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry x:Name = "peso3" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="0" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                            <Label Text="Función de preferencia relativa:" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" TextColor="{DynamicResource labels}"></Label>
+                            <Picker x:Name="p3" Grid.Column="0" HorizontalOptions="FillAndExpand" BackgroundColor="White" TextColor="Black" Grid.Row="2" Margin="0,1,1,1">
                                 <Picker.Items>
                                     <x:String>1</x:String>
                                     <x:String>2</x:String>
@@ -98,18 +99,19 @@
                                     <x:String>7</x:String>
                                 </Picker.Items>
                             </Picker>
-                            <Entry x:Name="pp3" Placeholder="p"/>
-                            <Entry x:Name="q3" Placeholder="q"/>
-                            <Entry x:Name="o3" Placeholder="o"/>
-                        </HorizontalStackLayout>
+                            <Entry x:Name="pp3" Placeholder="p" Grid.Column="1" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="q3" Placeholder="q" Grid.Column="2" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="o3" Placeholder="o" Grid.Column="3" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                        </Grid>
                     </Frame>
                     <Frame x:Name="c4" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="3">
-                        <HorizontalStackLayout HorizontalOptions="Center">
-                            <Label Grid.Row="6" Grid.Column="0" Text="Criterio 4" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
-                            <RadioButton x:Name = "maxc4" GroupName="maxmin4" Content="MAX" Grid.Row="6" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <RadioButton x:Name = "minc4" GroupName="maxmin4" Content="MIN" Grid.Row="6" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <Entry x:Name = "peso4" WidthRequest ="200" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="6" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand"></Entry>
-                            <Picker x:Name="p4" Title="Select el numero de funcion">
+                        <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*,*,*">
+                            <Label Grid.Row="0" Grid.Column="0" Text="Criterio 4" FontAttributes="Bold" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}" FontSize="Small" HorizontalOptions="Center"></Label>
+                            <RadioButton x:Name = "maxc4" GroupName="maxmin4" Content="MAX" Grid.Row="0" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc4" GroupName="maxmin4" Content="MIN" Grid.Row="0" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry x:Name = "peso4" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="0" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                            <Label Text="Función de preferencia relativa:" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" TextColor="{DynamicResource labels}"></Label>
+                            <Picker x:Name="p4" Grid.Column="0" HorizontalOptions="FillAndExpand" BackgroundColor="White" TextColor="Black" Grid.Row="2" Margin="0,1,1,1">
                                 <Picker.Items>
                                     <x:String>1</x:String>
                                     <x:String>2</x:String>
@@ -120,18 +122,19 @@
                                     <x:String>7</x:String>
                                 </Picker.Items>
                             </Picker>
-                            <Entry x:Name="pp4" Placeholder="p"/>
-                            <Entry x:Name="q4" Placeholder="q"/>
-                            <Entry x:Name="o4" Placeholder="o"/>
-                        </HorizontalStackLayout>
+                            <Entry x:Name="pp4" Placeholder="p" Grid.Column="1" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="q4" Placeholder="q" Grid.Column="2" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="o4" Placeholder="o" Grid.Column="3" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                        </Grid>
                     </Frame>
                     <Frame x:Name="c5" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="4">
-                        <HorizontalStackLayout HorizontalOptions="Center">
-                            <Label Grid.Row="7" Grid.Column="0" Text="Criterio 5" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
-                            <RadioButton x:Name = "maxc5" GroupName="maxmin5" Content="MAX" Grid.Row="7" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <RadioButton x:Name = "minc5" GroupName="maxmin5" Content="MIN" Grid.Row="7" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <Entry WidthRequest ="200" x:Name = "peso5" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="7" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand"></Entry>
-                            <Picker x:Name="p5" Title="Select el numero de funcion">
+                        <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*,*,*">
+                            <Label Grid.Row="0" Grid.Column="0" Text="Criterio 5" FontAttributes="Bold" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}" FontSize="Small" HorizontalOptions="Center"></Label>
+                            <RadioButton x:Name = "maxc5" GroupName="maxmin5" Content="MAX" Grid.Row="0" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc5" GroupName="maxmin5" Content="MIN" Grid.Row="0" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry x:Name = "peso5" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="0" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                            <Label Text="Función de preferencia relativa:" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" TextColor="{DynamicResource labels}"></Label>
+                            <Picker x:Name="p5" Grid.Column="0" HorizontalOptions="FillAndExpand" BackgroundColor="White" TextColor="Black" Grid.Row="2" Margin="0,1,1,1">
                                 <Picker.Items>
                                     <x:String>1</x:String>
                                     <x:String>2</x:String>
@@ -142,18 +145,19 @@
                                     <x:String>7</x:String>
                                 </Picker.Items>
                             </Picker>
-                            <Entry x:Name="pp5" Placeholder="p"/>
-                            <Entry x:Name="q5" Placeholder="q"/>
-                            <Entry x:Name="o5" Placeholder="o"/>
-                        </HorizontalStackLayout>
+                            <Entry x:Name="pp5" Placeholder="p" Grid.Column="1" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="q5" Placeholder="q" Grid.Column="2" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="o5" Placeholder="o" Grid.Column="3" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                        </Grid>
                     </Frame>
                     <Frame x:Name="c6" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="5">
-                        <HorizontalStackLayout HorizontalOptions="Center">
-                            <Label Grid.Row="8" Grid.Column="0" Text="Criterio 6" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
-                            <RadioButton x:Name = "maxc6" GroupName="maxmin6" Content="MAX" Grid.Row="8" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <RadioButton x:Name = "minc6" GroupName="maxmin6" Content="MIN" Grid.Row="8" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <Entry WidthRequest ="200" x:Name = "peso6" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="8" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand"></Entry>
-                            <Picker x:Name="p6" Title="Select el numero de funcion">
+                        <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*,*,*">
+                            <Label Grid.Row="0" Grid.Column="0" Text="Criterio 6" FontAttributes="Bold" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}" FontSize="Small" HorizontalOptions="Center"></Label>
+                            <RadioButton x:Name = "maxc6" GroupName="maxmin6" Content="MAX" Grid.Row="0" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc6" GroupName="maxmin6" Content="MIN" Grid.Row="0" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry x:Name = "peso6" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="0" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                            <Label Text="Función de preferencia relativa:" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" TextColor="{DynamicResource labels}"></Label>
+                            <Picker x:Name="p6" Grid.Column="0" HorizontalOptions="FillAndExpand" BackgroundColor="White" TextColor="Black" Grid.Row="2" Margin="0,1,1,1">
                                 <Picker.Items>
                                     <x:String>1</x:String>
                                     <x:String>2</x:String>
@@ -164,19 +168,19 @@
                                     <x:String>7</x:String>
                                 </Picker.Items>
                             </Picker>
-                            <Entry x:Name="pp6" Placeholder="p"/>
-                            <Entry x:Name="q6" Placeholder="q"/>
-                            <Entry x:Name="o6" Placeholder="o"/>
-                        </HorizontalStackLayout>
+                            <Entry x:Name="pp6" Placeholder="p" Grid.Column="1" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="q6" Placeholder="q" Grid.Column="2" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="o6" Placeholder="o" Grid.Column="3" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                        </Grid>
                     </Frame>
                     <Frame x:Name="c7" BorderColor="Transparent" BackgroundColor="Transparent" Grid.ColumnSpan="4" Grid.Row="6">
-                        <HorizontalStackLayout HorizontalOptions="Center">
-                            <Label Grid.Row="9" Grid.Column="0" Text="Criterio 7" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}"></Label>
-                            <RadioButton x:Name = "maxc7" GroupName="maxmin7" Content="MAX" Grid.Row="9" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            <RadioButton x:Name = "minc7" GroupName="maxmin7" Content="MIN" Grid.Row="9" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
-                            
-                            <Entry WidthRequest ="200" x:Name = "peso7" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="9" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand"></Entry>
-                            <Picker x:Name="p7" Title="Select el numero de funcion">
+                        <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*,*,*">
+                            <Label Grid.Row="0" Grid.Column="0" Text="Criterio 7" FontAttributes="Bold" FontFamily="Monserrat.ttf" VerticalOptions="Center" TextColor="{DynamicResource labels}" FontSize="Small" HorizontalOptions="Center"></Label>
+                            <RadioButton x:Name = "maxc7" GroupName="maxmin7" Content="MAX" Grid.Row="0" Grid.Column="1" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <RadioButton x:Name = "minc7" GroupName="maxmin7" Content="MIN" Grid.Row="0" Grid.Column="2" TextColor="{DynamicResource labels}" BackgroundColor="White"></RadioButton>
+                            <Entry x:Name = "peso7" BackgroundColor="White" Placeholder="Peso" Grid.Column="3" Grid.Row="0" FontFamily="Monserrat.ttf" Margin="0,0,0,0" TextColor="Black" HorizontalOptions="FillAndExpand" Keyboard="Numeric"></Entry>
+                            <Label Text="Función de preferencia relativa:" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" TextColor="{DynamicResource labels}"></Label>
+                            <Picker x:Name="p7" Grid.Column="0" HorizontalOptions="FillAndExpand" BackgroundColor="White" TextColor="Black" Grid.Row="2" Margin="0,1,1,1">
                                 <Picker.Items>
                                     <x:String>1</x:String>
                                     <x:String>2</x:String>
@@ -187,10 +191,10 @@
                                     <x:String>7</x:String>
                                 </Picker.Items>
                             </Picker>
-                            <Entry x:Name="pp7" Placeholder="p"/>
-                            <Entry x:Name="q7" Placeholder="q"/>
-                            <Entry x:Name="o7" Placeholder="o"/>
-                        </HorizontalStackLayout>
+                            <Entry x:Name="pp7" Placeholder="p" Grid.Column="1" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="q7" Placeholder="q" Grid.Column="2" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                            <Entry x:Name="o7" Placeholder="o" Grid.Column="3" Grid.Row="2" Background="White" TextColor="Black" Margin="5,1,5,1" Keyboard="Numeric"/>
+                        </Grid>
                     </Frame>
 
                     
