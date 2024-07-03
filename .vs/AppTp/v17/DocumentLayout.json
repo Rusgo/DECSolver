@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\pantallamenupromethee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenupromethee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\pantallamenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\pantallamenupromethee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenupromethee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\pantallamenupromethee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "AppTp\\Pantallas\\Resultados.xaml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-03T21:23:01.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T21:23:01.777Z"
             },
             {
               "$type": "Document",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenuPromethee.xaml.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwBwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T21:12:15.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T21:12:15.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "pantallaMenuPromethee.xaml",
               "DocumentMoniker": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\pantallaMenuPromethee.xaml",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenuPromethee.xaml",
@@ -77,13 +75,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "pantallaMenu.xaml",
               "DocumentMoniker": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenu.xaml",
               "ToolTip": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
               "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenu.xaml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAABkAAACdAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFoAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-02T12:36:33.561Z",
               "EditorCaption": ""
