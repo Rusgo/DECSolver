@@ -11,10 +11,34 @@
     <TabbedPage.ToolbarItems>
         <ToolbarItem Text="Generar Excel" Clicked="ToolbarItem_Clicked" />
     </TabbedPage.ToolbarItems>
-    <local:Prometee_Paso1_calculoPrefyFuncion Title="Paso 1"/>
-    <local:Prometee_Paso2_Preferencia Title="Paso 2"/>
-    <local:Prometee_paso3_calculoFlujos Title="Paso 3"/>
-    <local:Prometee_Paso4_Preorden Title="Paso 4"/>
-    <local:Moora_Resultados Title="Resultados"/>
+    <ContentPage Title="Paso 1" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout x:Name="pantallaPaso1">
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Paso 2" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout x:Name="pantallaPaso2">
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Paso 3" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout x:Name="pantallaPaso3">
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Paso 4" BackgroundColor="#E3FEF7">
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+            <StackLayout x:Name="pantallaPaso4">
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <local:Moora_Resultados x:Name="resultado" Title="Resultados"/>
 
 </TabbedPage>

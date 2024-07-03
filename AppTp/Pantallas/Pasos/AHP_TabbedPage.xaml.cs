@@ -87,4 +87,16 @@ public partial class AHP_TabbedPage : TabbedPage
 
 
     }
+    protected override bool OnBackButtonPressed()
+    {
+        if (Navigation.NavigationStack.Count > 1)
+        {
+            if (ahps.Count > 0)
+            {
+                ahps.RemoveAt(ahps.Count - 1);
+            }
+        }
+
+        return base.OnBackButtonPressed();
+    }
 }

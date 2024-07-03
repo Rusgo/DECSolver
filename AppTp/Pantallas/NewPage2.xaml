@@ -3,10 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppTp.Pantallas.NewPage2"
              Title="NewPage2">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#E3FEF7" Orientation="Both">
+            <StackLayout>
+                <Label Margin="5,20,5,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="ANTES: " FontAttributes="Bold" TextColor="#003C43"/>
+                            <Span Text="Completar la matriz de decisión" TextColor="Black"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Grid x:Name="GridCargaTabla"
+                      Padding="10"
+                      RowSpacing="0"
+                      ColumnSpacing="0"
+                      HorizontalOptions="Center">
+                </Grid>
+                <Image Aspect="AspectFit"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       x:Name="imagenMetodo"
+                       Margin="5,5,5,5"/>
+                <Button Text="Resolver"
+                        Clicked="btnResolverClicked"
+                        HorizontalOptions="End"
+                        VerticalOptions="End"
+                        Margin="5,5,10,5"
+                        BackgroundColor="#135D66"
+                        TextColor="White"
+                        BorderColor="Black"
+                        BorderWidth="1"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>
