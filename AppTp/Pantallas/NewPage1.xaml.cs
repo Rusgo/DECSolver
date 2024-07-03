@@ -156,6 +156,7 @@ public partial class NewPage1 : ContentPage
             }
         }
 
+        
         if (!isValid)
         {
             DisplayAlert("Advertencia", "Por favor, ingrese solo valores numéricos.", "OK");
@@ -199,25 +200,26 @@ public partial class NewPage1 : ContentPage
             entropia.resolverEntropia();
             pesos = entropia.pesos;
         }
-        if (metodo == "  Ponderación Lineal")
+        bool existeNumeroDistintoCero = matriz.Cast<float>().Any(x => x > 0);
+        if (metodo == "  Ponderación Lineal" && existeNumeroDistintoCero)
         {
             Metodos.PonderacionLineal pl = new Metodos.PonderacionLineal(matriz, pesos, maxmin, selectedIndex);
             pl.resolver();
             Navigation.PushAsync(new TabPage(pl));
         }
-        else if (metodo == "Método MOORA")
+        else if (metodo == "Método MOORA" && existeNumeroDistintoCero)
         {
             Metodos.Moora moora = new Metodos.Moora(matriz, pesos, maxmin, 1);
             moora.resolver();
             Navigation.PushAsync(new MooraTabPage(moora));
         }
-        if (metodo == "          MOORA Punto de Referencia")
+        if (metodo == "          MOORA Punto de Referencia" && existeNumeroDistintoCero)
         {
             Metodos.MooraPuntoRef moora = new Metodos.MooraPuntoRef(matriz, pesos, maxmin, 1);
             moora.resolver();
             Navigation.PushAsync(new MooraPRTabPage(moora));
         }
-        if (metodo == "Método PROMETHEE")
+        if (metodo == "Método PROMETHEE" && existeNumeroDistintoCero)
         {
             Metodos.PROMETHEE tp = new Metodos.PROMETHEE(matriz, pesos, maxmin, selectedIndex);
             Entidades.Funcion fun1 = new Entidades.Funcion(0, 0, 0, 1);
@@ -230,13 +232,13 @@ public partial class NewPage1 : ContentPage
             tp.resolver(lista);
             Navigation.PushAsync(new Resultados(tp));
         }
-        if (metodo == "Método TOPSIS")
+        if (metodo == "Método TOPSIS" && existeNumeroDistintoCero)
         {
             Metodos.Topsis tp = new Metodos.Topsis(matriz, pesos, maxmin, selectedIndex);
             tp.resolver();
             Navigation.PushAsync(new TOPSISTabPage(tp));
         }
-        if (metodo == "    Método ELECTRE")
+        if (metodo == "    Método ELECTRE" && existeNumeroDistintoCero)
         {
             try
             {

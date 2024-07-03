@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\pantallas\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\pantallas\\pantallamenupromethee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenupromethee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,38 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NewPage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\NewPage1.xaml.cs",
+              "RelativeDocumentMoniker": "AppTp\\Pantallas\\NewPage1.xaml.cs",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\NewPage1.xaml.cs",
+              "RelativeToolTip": "AppTp\\Pantallas\\NewPage1.xaml.cs",
+              "ViewState": "AQIAANQAAAAAAAAAAAAwwPYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:49:23.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "pantallaMenuPromethee.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenuPromethee.xaml.cs",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenuPromethee.xaml.cs",
               "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenuPromethee.xaml.cs",
               "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenuPromethee.xaml.cs",
-              "ViewState": "AQIAAPsAAAAAAAAAAAAtwAcBAAAIAAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAlwIoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T14:14:08.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "pantallaMenu.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml.cs",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenu.xaml.cs",
               "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml.cs",
               "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenu.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwBEAAABNAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAH0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T13:45:02.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "pantallaMenu.xaml",
               "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenu.xaml",
               "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
               "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenu.xaml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC4AAAAcAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwC4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-02T12:36:33.561Z",
               "EditorCaption": ""

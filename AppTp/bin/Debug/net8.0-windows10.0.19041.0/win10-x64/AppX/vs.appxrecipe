@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Orussa-Coniglio\Documents\GitHub\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-03T14:30:16.207</Modified>
+      <Modified>2024-07-03T14:54:57.552</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orussa-Coniglio\Documents\GitHub\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.dll">
       <PackagePath>AppTp.dll</PackagePath>
-      <Modified>2024-07-03T14:30:15.398</Modified>
+      <Modified>2024-07-03T14:54:56.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orussa-Coniglio\Documents\GitHub\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppTp.exe</PackagePath>
-      <Modified>2024-07-03T14:30:15.405</Modified>
+      <Modified>2024-07-03T14:54:56.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orussa-Coniglio\Documents\GitHub\DECSolver\AppTp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
