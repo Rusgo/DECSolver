@@ -133,4 +133,8 @@
 	  </MauiXaml>
 	</ItemGroup>
 
+	<ItemGroup>
+		<MauiAsset Include="Resources\Raw\MooraPR.pdf" />
+	</ItemGroup>
+
 </Project>

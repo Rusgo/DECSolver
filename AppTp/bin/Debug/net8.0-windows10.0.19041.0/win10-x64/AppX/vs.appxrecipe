@@ -30,341 +30,349 @@
     <AppXManifest Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-03T21:13:16.506</Modified>
+      <Modified>2024-07-04T16:25:48.578</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-07-03T21:07:03.438</Modified>
+      <Modified>2024-07-04T16:25:23.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.runtimeconfig.json">
       <PackagePath>AppTp.runtimeconfig.json</PackagePath>
-      <Modified>2024-07-03T21:07:02.926</Modified>
+      <Modified>2024-07-04T15:50:34.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.dll">
       <PackagePath>AppTp.dll</PackagePath>
-      <Modified>2024-07-03T21:13:13.998</Modified>
+      <Modified>2024-07-04T16:25:47.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppTp.exe</PackagePath>
-      <Modified>2024-07-03T21:13:14.073</Modified>
+      <Modified>2024-07-04T16:25:47.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-07-03T20:59:27.945</Modified>
+      <Modified>2024-07-04T15:38:32.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\Resources\Raw\MooraPR.pdf">
+      <PackagePath>MooraPR.pdf</PackagePath>
+      <Modified>2024-04-11T14:31:25.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\Resources\Raw\MooraPR.pdf">
+      <PackagePath>Resources\Raw\MooraPR.pdf</PackagePath>
+      <Modified>2024-04-11T14:31:25.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.065</Modified>
+      <Modified>2024-07-04T15:39:02.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.065</Modified>
+      <Modified>2024-07-04T15:39:02.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.073</Modified>
+      <Modified>2024-07-04T15:39:02.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.073</Modified>
+      <Modified>2024-07-04T15:39:02.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.073</Modified>
+      <Modified>2024-07-04T15:39:02.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat.ttf">
       <PackagePath>Montserrat.ttf</PackagePath>
-      <Modified>2024-07-03T20:59:56.951</Modified>
+      <Modified>2024-07-04T15:39:02.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-07-03T20:59:56.951</Modified>
+      <Modified>2024-07-04T15:39:02.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-07-03T20:59:56.951</Modified>
+      <Modified>2024-07-04T15:39:02.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-07-03T20:59:56.959</Modified>
+      <Modified>2024-07-04T15:39:02.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.959</Modified>
+      <Modified>2024-07-04T15:39:02.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.959</Modified>
+      <Modified>2024-07-04T15:39:02.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.959</Modified>
+      <Modified>2024-07-04T15:39:02.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.967</Modified>
+      <Modified>2024-07-04T15:39:02.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.967</Modified>
+      <Modified>2024-07-04T15:39:02.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.967</Modified>
+      <Modified>2024-07-04T15:39:02.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.967</Modified>
+      <Modified>2024-07-04T15:39:02.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.975</Modified>
+      <Modified>2024-07-04T15:39:02.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.975</Modified>
+      <Modified>2024-07-04T15:39:02.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.975</Modified>
+      <Modified>2024-07-04T15:39:02.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.975</Modified>
+      <Modified>2024-07-04T15:39:02.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.975</Modified>
+      <Modified>2024-07-04T15:39:02.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.975</Modified>
+      <Modified>2024-07-04T15:39:02.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.984</Modified>
+      <Modified>2024-07-04T15:39:02.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.984</Modified>
+      <Modified>2024-07-04T15:39:02.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.984</Modified>
+      <Modified>2024-07-04T15:39:02.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.984</Modified>
+      <Modified>2024-07-04T15:39:02.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.984</Modified>
+      <Modified>2024-07-04T15:39:02.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.984</Modified>
+      <Modified>2024-07-04T15:39:02.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.992</Modified>
+      <Modified>2024-07-04T15:39:02.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.992</Modified>
+      <Modified>2024-07-04T15:39:02.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.992</Modified>
+      <Modified>2024-07-04T15:39:02.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.992</Modified>
+      <Modified>2024-07-04T15:39:02.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.992</Modified>
+      <Modified>2024-07-04T15:39:02.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.992</Modified>
+      <Modified>2024-07-04T15:39:02.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:56.992</Modified>
+      <Modified>2024-07-04T15:39:02.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.000</Modified>
+      <Modified>2024-07-04T15:39:02.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.008</Modified>
+      <Modified>2024-07-04T15:39:02.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.008</Modified>
+      <Modified>2024-07-04T15:39:02.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.008</Modified>
+      <Modified>2024-07-04T15:39:02.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.008</Modified>
+      <Modified>2024-07-04T15:39:02.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.016</Modified>
+      <Modified>2024-07-04T15:39:02.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.016</Modified>
+      <Modified>2024-07-04T15:39:02.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.016</Modified>
+      <Modified>2024-07-04T15:39:02.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.016</Modified>
+      <Modified>2024-07-04T15:39:02.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.016</Modified>
+      <Modified>2024-07-04T15:39:02.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.016</Modified>
+      <Modified>2024-07-04T15:39:02.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.024</Modified>
+      <Modified>2024-07-04T15:39:02.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.024</Modified>
+      <Modified>2024-07-04T15:39:02.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.024</Modified>
+      <Modified>2024-07-04T15:39:02.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.024</Modified>
+      <Modified>2024-07-04T15:39:02.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.024</Modified>
+      <Modified>2024-07-04T15:39:02.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.024</Modified>
+      <Modified>2024-07-04T15:39:02.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.024</Modified>
+      <Modified>2024-07-04T15:39:02.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.032</Modified>
+      <Modified>2024-07-04T15:39:02.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.032</Modified>
+      <Modified>2024-07-04T15:39:02.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.032</Modified>
+      <Modified>2024-07-04T15:39:02.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.032</Modified>
+      <Modified>2024-07-04T15:39:02.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.032</Modified>
+      <Modified>2024-07-04T15:39:02.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.041</Modified>
+      <Modified>2024-07-04T15:39:02.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagendec1.scale-100.png">
       <PackagePath>imagendec1.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.041</Modified>
+      <Modified>2024-07-04T15:39:02.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\informacion.scale-100.png">
       <PackagePath>informacion.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.041</Modified>
+      <Modified>2024-07-04T15:39:02.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla10.scale-100.png">
       <PackagePath>medalla10.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.041</Modified>
+      <Modified>2024-07-04T15:39:02.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla11.scale-100.png">
       <PackagePath>medalla11.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.041</Modified>
+      <Modified>2024-07-04T15:39:02.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla12.scale-100.png">
       <PackagePath>medalla12.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.049</Modified>
+      <Modified>2024-07-04T15:39:02.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla13.scale-100.png">
       <PackagePath>medalla13.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.049</Modified>
+      <Modified>2024-07-04T15:39:02.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla14.scale-100.png">
       <PackagePath>medalla14.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.049</Modified>
+      <Modified>2024-07-04T15:39:02.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla15.scale-100.png">
       <PackagePath>medalla15.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.049</Modified>
+      <Modified>2024-07-04T15:39:02.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla4.scale-100.png">
       <PackagePath>medalla4.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.049</Modified>
+      <Modified>2024-07-04T15:39:02.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla5.scale-100.png">
       <PackagePath>medalla5.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.049</Modified>
+      <Modified>2024-07-04T15:39:02.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla6.scale-100.png">
       <PackagePath>medalla6.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.057</Modified>
+      <Modified>2024-07-04T15:39:02.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla7.scale-100.png">
       <PackagePath>medalla7.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.057</Modified>
+      <Modified>2024-07-04T15:39:02.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla8.scale-100.png">
       <PackagePath>medalla8.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.057</Modified>
+      <Modified>2024-07-04T15:39:02.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medalla9.scale-100.png">
       <PackagePath>medalla9.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.057</Modified>
+      <Modified>2024-07-04T15:39:02.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\podio.scale-100.png">
       <PackagePath>podio.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.065</Modified>
+      <Modified>2024-07-04T15:39:02.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pregunta.scale-100.png">
       <PackagePath>pregunta.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.065</Modified>
+      <Modified>2024-07-04T15:39:02.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\titulo.scale-100.png">
       <PackagePath>titulo.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.065</Modified>
+      <Modified>2024-07-04T15:39:02.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\transp.scale-100.png">
       <PackagePath>transp.scale-100.png</PackagePath>
-      <Modified>2024-07-03T20:59:57.065</Modified>
+      <Modified>2024-07-04T15:39:02.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppTp.deps.json">
       <PackagePath>AppTp.deps.json</PackagePath>
-      <Modified>2024-07-03T21:07:02.762</Modified>
+      <Modified>2024-07-04T16:25:23.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

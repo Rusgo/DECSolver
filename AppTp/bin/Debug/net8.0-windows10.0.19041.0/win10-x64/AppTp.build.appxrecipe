@@ -40,6 +40,12 @@
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\Resources\Raw\MooraPR.pdf">
+      <PackagePath>MooraPR.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\Resources\Raw\MooraPR.pdf">
+      <PackagePath>Resources\Raw\MooraPR.pdf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
