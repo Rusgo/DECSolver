@@ -60,7 +60,7 @@ public partial class Prometee_TabbedPage : TabbedPage
             };
         Metodos.formatoTabla.CreateTable(p.Agregarfila(p.AgregarColumna(p.formatoExcelP(p.matrizPonderada), flujop, colu), flujon, fila), "Paso 4", grid);
         pantallaPaso4.Children.Add(grid);
-        resultado.mostrarResultados(p.ordenarResultado());
+        resultado.mostrarResultados(p.ordenarResultado(), p.ordenarResultadoValores());
     }
 
     public async Task excelAsync()

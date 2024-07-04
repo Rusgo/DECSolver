@@ -13,7 +13,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
+    <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both" HorizontalOptions="Center">
         <VerticalStackLayout Padding="20" HorizontalOptions="Center">
             <!-- Título -->
             <Image Source="tituloresultados.png"
@@ -37,33 +37,32 @@
                        FontSize="Medium" 
                        TextColor="#135D66"
                        HorizontalOptions="Center"
-                       VerticalOptions="End"
-                       TranslationY="-170"
-                       FontFamily="Monserrat.ttf"/>
+                       FontFamily="Monserrat.ttf"
+                       VerticalOptions="Start"/>
 
                 <Label x:Name="Alternativa2Label"
                        FontSize="Medium" 
                        TextColor="#135D66"
-                       HorizontalOptions="Center"
-                       VerticalOptions="End"
-                       TranslationX="-200"
-                       TranslationY="-90"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"
                        FontFamily="Monserrat.ttf"/>
 
                 <Label x:Name="Alternativa3Label"
                        FontSize="Medium" 
                        TextColor="#135D66"
-                       HorizontalOptions="Center"
-                       VerticalOptions="End"
-                       TranslationX="200"
-                       TranslationY="-80"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"                       
                        FontFamily="Monserrat.ttf"/>
             </Grid>
 
             <!-- Contenedor para las medallas restantes -->
             <VerticalStackLayout x:Name="MedallasStackLayout" Margin="0,40,0,0" HorizontalOptions="Center"/>
-            
+
+            <VerticalStackLayout x:Name="mainLayout">
+                <!-- Aquí se agregará dinámicamente el Grid desde el código C# -->
+            </VerticalStackLayout>
         </VerticalStackLayout>
+        
         
     </ScrollView>
 </ContentPage>

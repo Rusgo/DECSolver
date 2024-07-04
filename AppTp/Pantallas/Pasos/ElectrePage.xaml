@@ -65,16 +65,15 @@
         </ScrollView>
     </ContentPage>
     <ContentPage Title="Grafico" BackgroundColor="#E3FEF7">
-        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both" >
-            <AbsoluteLayout>
-                <GraphicsView
-                    x:Name="graphView"
-                    AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
-                    AbsoluteLayout.LayoutFlags="All"
-                    HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"
-                    />
-            </AbsoluteLayout>
+        <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both" WidthRequest="400" HeightRequest="350" VerticalOptions="Start">
+            <GraphicsView x:Name="graphView"
+                          VerticalOptions="Fill"
+                          HorizontalOptions="Fill"
+                          HeightRequest="300" 
+                          WidthRequest="300"
+                          />
+            
         </ScrollView>
+
     </ContentPage>
 </TabbedPage>

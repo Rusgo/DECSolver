@@ -77,7 +77,7 @@ public partial class AHP_TabbedPage : TabbedPage
             cont++;
 		}
         Metodos.formatoTabla.CreateTable(pl.agregacionExcel(), "Paso 3", GridPL);
-        resultado.mostrarResultados(pl.ordenarResultado());
+        resultado.mostrarResultados(pl.ordenarResultado(), pl.ordenarResultadoValores());
 
     }
 

@@ -1,1 +1,1 @@
-C:\Users\Orussa-Coniglio\Documents\GitHub\DECSolver\AppTp\AppTp.csproj;x64
+D:\a\curso spring\Proyecto final\DECSolver\AppTp\AppTp.csproj;x64

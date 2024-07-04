@@ -11,7 +11,7 @@ public partial class TabPage : TabbedPage
         InitializeComponent();
         Metodos.formatoTabla.CreateTable(pl.sinNormalizarExcel(), "Paso 1", GridPLP1_MismoSentOptim);
         Metodos.formatoTabla.CreateTable(pl.agregacionExcel(), "Paso 2", GridPLP2_NormAgregacion);
-        resultado.mostrarResultados(pl.ordenarResultado());
+        resultado.mostrarResultados(pl.ordenarResultado(), pl.ordenarResultadoValores());
         this.obj = pl;
     }
     private async void OnGenerateExcelClicked(object sender, EventArgs e)

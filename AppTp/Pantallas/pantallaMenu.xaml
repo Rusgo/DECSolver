@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppTp.Pantallas.pantallaMenu"
              Title="Carga de datos"
-             BackgroundColor="{DynamicResource fondo}">
+             BackgroundColor="{DynamicResource fondo}"
+             Style="{StaticResource DefaultLightTheme}">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key = "fondo">#E3FEF7</Color>

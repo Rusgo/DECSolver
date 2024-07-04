@@ -14,6 +14,7 @@ public partial class pantallaMenu : ContentPage
 	{
 		InitializeComponent();
         //para que se use solo punto
+
         CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
         CultureInfo.DefaultThreadCurrentUICulture = new CultureInfo("en-US");
         this.metodo = metodo;

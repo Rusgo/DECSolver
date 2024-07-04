@@ -12,7 +12,7 @@ public partial class Moora_Resultados : ContentPage
         InitializeComponent();
     }
     Color labelColor = Color.FromHex("#003C43");
-    public void mostrarResultados(string[] resultados)
+    public void mostrarResultados(string[] resultados, string[] resultadosConValores)
     {
         List<string> alternativas = new List<string>();
         foreach (string alter in resultados)
@@ -26,7 +26,15 @@ public partial class Moora_Resultados : ContentPage
 
         // Limpiar cualquier contenido previo en el StackLayout
         MedallasStackLayout.Children.Clear();
+        if (DeviceInfo.Platform == DevicePlatform.WinUI)
+        {
+            Alternativa1Label.TranslationY = -170;
+            Alternativa2Label.TranslationX = -200;
+            Alternativa2Label.TranslationY = -90;
+            Alternativa3Label.TranslationX = 200;
+            Alternativa3Label.TranslationY = -80;
 
+        }
         // Crear las vistas para las medallas restantes
         for (int i = 3; i < alternativas.Count; i++)
         {
@@ -55,7 +63,70 @@ public partial class Moora_Resultados : ContentPage
 
             MedallasStackLayout.Children.Add(stack);
         }
+
+
+
+
+
+        mainLayout.Children.Clear();
+        // Crear el Grid
+        var resultadosGrid = new Grid
+        {
+            ColumnDefinitions =
+                {
+                    new ColumnDefinition { Width = GridLength.Star }
+                }
+        };
+
+        
+        var encabezadoLabel = new Label
+        {
+            Text = "Resultados",
+            TextColor = Colors.Black,
+            HorizontalOptions = LayoutOptions.FillAndExpand,
+            VerticalOptions = LayoutOptions.Center,
+            FontAttributes = FontAttributes.Bold
+        };
+        var encabezadoFrame = new Frame
+        {
+            Content = encabezadoLabel,
+            BackgroundColor = Color.FromArgb("#135D66"), 
+            BorderColor = Colors.Black,
+            Padding = new Thickness(5),
+            HasShadow = false,
+            Margin = 0
+        };
+        resultadosGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+        resultadosGrid.Add(encabezadoFrame, 0, 0);
+
+        
+        for (int i = 0; i < resultadosConValores.Length; i++)
+        {
+            var label = new Label
+            {
+                Text = resultadosConValores[i],
+                TextColor = Colors.Black,
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.Center
+            };
+            var frame = new Frame
+            {
+                Content = label,
+                BackgroundColor = Color.FromArgb("#7FFFD4"), // Fondo verde agua
+                BorderColor = Colors.Black,
+                Padding = new Thickness(5),
+                HasShadow = false,
+                Margin = 0
+            };
+            resultadosGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            resultadosGrid.Add(frame, 0, i + 1); // Añadir en la fila correspondiente
+        }
+
+        // Añadir el Grid al VerticalStackLayout
+        mainLayout.Children.Add(resultadosGrid);
     }
+
 }
+
 
 

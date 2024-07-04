@@ -14,9 +14,13 @@ namespace AppTp
                 BarBackgroundColor = Color.FromHex("#003C43"), // Cambia 'Aqua' por el color que desees
                 BarTextColor = Colors.White // Opcional: Cambia el color del texto de la barra de navegación
             };
-
             MainPage = navigationPage;
 
+
+
         }
+
+
+
     }
 }

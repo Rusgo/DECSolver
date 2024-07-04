@@ -52,7 +52,7 @@ public partial class ElectrePage : TabbedPage
 
             if (i == 0)
             {
-                Nodo nodo = new Nodo("Nodo " + (i + 1), 30, 30);
+                Nodo nodo = new Nodo("A" + (i + 1), 30, 30);
                 nodos.Add(nodo);
                 ultimonodoparx = nodo.X;
                 ultimonodopary = nodo.Y;
@@ -61,21 +61,21 @@ public partial class ElectrePage : TabbedPage
 
             if (i % 2 == 0 && i > 1)
             {
-                Nodo nodo = new Nodo("Nodo " + (i + 1), ultimonodoparx + 100, ultimonodopary);
+                Nodo nodo = new Nodo("A" + (i + 1), ultimonodoparx + 100, ultimonodopary);
                 nodos.Add(nodo);
                 ultimonodoparx = nodo.X;
                 ultimonodopary = nodo.Y;
             }
             if (i % 2 != 0 && i > 1)
             {
-                Nodo nodo = new Nodo("Nodo " + (i + 1), ultimonodoimparx + 100, ultimonodoimpary);
+                Nodo nodo = new Nodo("A" + (i + 1), ultimonodoimparx + 100, ultimonodoimpary);
                 nodos.Add(nodo);
                 ultimonodoimparx = nodo.X;
                 ultimonodoimpary = nodo.Y;
             }
             if (i == 1)
             {
-                Nodo nodo = new Nodo("Nodo " + (i + 1), ultimonodoparx, ultimonodopary + 200);
+                Nodo nodo = new Nodo("A" + (i + 1), ultimonodoparx, ultimonodopary + 200);
                 nodos.Add(nodo);
                 ultimonodoimparx = nodo.X;
                 ultimonodoimpary = nodo.Y;

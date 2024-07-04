@@ -9,7 +9,13 @@ public partial class Inicio : ContentPage
 	public Inicio()
 	{
 		InitializeComponent();
-	}
+        if (DeviceInfo.Platform == DevicePlatform.Android)
+        {
+            BtnInfo.CornerRadius = 20;
+            BtnPreg.CornerRadius = 20;
+        }
+
+    }
     public async void BtnInfo_Clicked(object sender, EventArgs e)
     {
         // Abre el archivo PDF desde el paquete de la aplicación

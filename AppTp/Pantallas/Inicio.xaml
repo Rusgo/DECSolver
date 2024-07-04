@@ -15,25 +15,25 @@
     <Grid RowDefinitions="*,*,*,*,*,*,*,*,*" ColumnDefinitions="*" HorizontalOptions="FillAndExpand">
         <Image Source="titulo.png" HorizontalOptions="CenterAndExpand" Grid.Row="0"></Image>
 
-        <Button TextColor="White" Clicked="Button_Clicked"  Grid.Row="1" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="  Ponderación Lineal" FontSize="12"/>
+        <Button TextColor="White" Clicked="Button_Clicked"  Grid.Row="1" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="60,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="  Ponderación Lineal" FontSize="12"/>
         <Image Source="imagendec1.png" HorizontalOptions="Start" Grid.Row="1" Margin="40,0,40,0"></Image>
 
-        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="2" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="Método MOORA" FontSize="12"/>
+        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="2" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,60,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="Método MOORA" FontSize="12"/>
 
         <Image Source="imagendec1.png" HorizontalOptions="End" Grid.Row="2" Margin="40,0,40,0"></Image>
-        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="3" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="          MOORA Punto de Referencia" FontSize="12"/>
+        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="3" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="60,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="          MOORA Punto de Referencia" FontSize="12"/>
 
         <Image Source="imagendec1.png" HorizontalOptions="Start" Grid.Row="3" Margin="40,0,40,0"></Image>
-        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="4" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="Método TOPSIS" FontSize="12"/>
+        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="4" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,60,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="Método TOPSIS" FontSize="12"/>
 
         <Image Source="imagendec1.png" HorizontalOptions="End" Grid.Row="4" Margin="40,0,40,0"></Image>
-        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="5" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="Método AHP" FontSize="12"/>
+        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="5" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="60,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="Método AHP" FontSize="12"/>
 
         <Image Source="imagendec1.png" HorizontalOptions="Start" Grid.Row="5" Margin="40,0,40,0"></Image>
-        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="6" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="Método PROMETHEE" FontSize="12"/>
+        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="6" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,60,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="Método PROMETHEE" FontSize="12"/>
 
         <Image Source="imagendec1.png" HorizontalOptions="End" Grid.Row="6" Margin="40,0,40,0"></Image>
-        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="7" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="50,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="    Método ELECTRE" FontSize="12"/>
+        <Button TextColor="White" Clicked="Button_Clicked" Grid.Row="7" CornerRadius="10" HorizontalOptions="FillAndExpand" Margin="60,5,50,5" BackgroundColor="{DynamicResource boton}" FontFamily="Monserrat.ttf" Text="    Método ELECTRE" FontSize="12"/>
 
         <Image Source="imagendec1.png" HorizontalOptions="Start" Grid.Row="7" Margin="40,0,40,0"></Image>
         <ImageButton Clicked="BtnInfo_Clicked" x:Name="BtnInfo" Source="informacion.png" Grid.Row="8" CornerRadius="100" HorizontalOptions="Start"  Margin="12,12,12,12"></ImageButton>

@@ -495,7 +495,28 @@ namespace AppTp.Metodos
             int cont = 0;
             foreach (var (value, index) in indexedNumbers)
             {
-                alternativas[cont] = "A-" + (index+1).ToString() + ": " + value.ToString() ;
+                alternativas[cont] = "A" + (index+1).ToString();
+                cont++;
+            }
+            return alternativas;
+        }
+
+        public virtual string[] ordenarResultadoValores()
+        {
+            int cantidad = this.resultado.Length;
+
+            string[] alternativas = new string[cantidad];
+            float[] resultados = this.resultado;
+            var indexedNumbers = resultados
+            .Select((value, index) => (value, index))
+            .ToArray();
+
+            Array.Sort(indexedNumbers, (x, y) => y.value.CompareTo(x.value));
+
+            int cont = 0;
+            foreach (var (value, index) in indexedNumbers)
+            {
+                alternativas[cont] = "Alternativa " + (index + 1).ToString() + ": " + value.ToString();
                 cont++;
             }
             return alternativas;

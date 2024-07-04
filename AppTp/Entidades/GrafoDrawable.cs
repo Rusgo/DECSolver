@@ -38,10 +38,11 @@ namespace AppTp.Entidades
 
             foreach (var nodo in nodos)
             {
-                canvas.FillColor = Colors.Blue;
+                canvas.FillColor = Colors.LightSeaGreen;
                 canvas.FillCircle(nodo.X, nodo.Y, 30);
 
-                canvas.FontColor = Colors.White;
+
+                canvas.FontColor = Colors.Black;
                 canvas.FontSize = 12;
                 canvas.DrawString(nodo.Nombre, nodo.X, nodo.Y, HorizontalAlignment.Center);
             }
