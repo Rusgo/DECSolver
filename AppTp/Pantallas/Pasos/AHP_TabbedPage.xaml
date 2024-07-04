@@ -35,9 +35,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridNormalizado"
-                    Padding="20"
-                    RowSpacing="10"
-                    ColumnSpacing="10">
+                    Padding="10"
+                    RowSpacing="0"
+                    ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>
@@ -54,9 +54,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridPL"
-            Padding="20"
-            RowSpacing="10"
-            ColumnSpacing="10">
+            Padding="10"
+            RowSpacing="0"
+            ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>

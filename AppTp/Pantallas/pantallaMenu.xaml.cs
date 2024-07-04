@@ -24,7 +24,7 @@ public partial class pantallaMenu : ContentPage
         c7.IsVisible = false;
         Alternativas.Text = "2";
         criterios.Text = "2";
-        List<String> metodos = new List<String> { "Suma","Raiz","Rango"};
+        List<String> metodos = new List<String> { "Suma","Distancia euclidiana","Rango"};
         List<String> funciones = new List<String> { "Verdadero Criterio", "Cuasi Criterio", "Seudo Criterio con Preferencia Lineal", "Level Criterio", "Criterio con preferencia lineal y area de indiferencia", "Criterio Gaussiano" };
         
         normalizarmetodos.ItemsSource = metodos;
@@ -92,7 +92,7 @@ public partial class pantallaMenu : ContentPage
     }
     private async void ToolbarItem_Clicked(object sender, EventArgs e)
     {
-        if(normalizarmetodos.SelectedItem == null)
+        if(normalizarmetodos.SelectedItem == null && metodo != "Método MOORA" && metodo != "Método AHP" && metodo != "          MOORA Punto de Referencia")
         {
             DisplayAlert("Error en la seleccion del metodo de normalizacion", "Debe seleccionar un metodo de normalizacion", "OK");
         }

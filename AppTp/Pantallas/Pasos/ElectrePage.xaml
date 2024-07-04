@@ -33,9 +33,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridNormalizado"
-                Padding="20"
-                RowSpacing="10"
-                ColumnSpacing="10">
+                Padding="10"
+                RowSpacing="0"
+                ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>
@@ -53,14 +53,14 @@
                 </Label>
                 
                 <Grid x:Name="GridSupe"
-        Padding="20"
-        RowSpacing="10"
-        ColumnSpacing="10">
+        Padding="10"
+        RowSpacing="0"
+        ColumnSpacing="0">
                 </Grid>
 
-                <Entry x:Name="c1" Placeholder="ci"/>
-                <Entry x:Name="d1" Placeholder="di"/>
-                <Button Clicked="Button_Clicked" Text="resolver"/>
+                <Entry x:Name="c1" Placeholder="ci" Margin="5,5,5,5"/>
+                <Entry x:Name="d1" Placeholder="di" Margin="5,5,5,5"/>
+                <Button Clicked="Button_Clicked" Text="Resolver" BackgroundColor="#135D66" Margin="5,5,5,5"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>

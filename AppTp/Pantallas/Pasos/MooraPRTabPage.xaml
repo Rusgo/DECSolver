@@ -10,7 +10,6 @@
             BarBackgroundColor="#135D66">
     <TabbedPage.ToolbarItems>
         <ToolbarItem Text="Generar Excel" Clicked="OnGenerateExcelClicked" />
-        <ToolbarItem Text="Moora con Punto de Referencia" />
     </TabbedPage.ToolbarItems>
     <ContentPage Title="Paso 1" BackgroundColor="#E3FEF7">
         <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
@@ -24,9 +23,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridPR1_NormAgregacion"
-          Padding="20"
-          RowSpacing="10"
-          ColumnSpacing="10">
+          Padding="10"
+          RowSpacing="0"
+          ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>
@@ -43,9 +42,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridMooraPR2_PondIdeal"
-      Padding="20"
-      RowSpacing="10"
-      ColumnSpacing="10">
+      Padding="10"
+      RowSpacing="0"
+      ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>
@@ -57,14 +56,14 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <Span Text="Paso 3: " FontAttributes="Bold"/>
-                            <Span Text="Obtenemos la distacia al Punto Ideal:"/>
+                            <Span Text="Obtenemos la distacia al Punto Ideal"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridMooraPR3_Distancias"
-      Padding="20"
-      RowSpacing="10"
-      ColumnSpacing="10">
+      Padding="10"
+      RowSpacing="0"
+      ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>

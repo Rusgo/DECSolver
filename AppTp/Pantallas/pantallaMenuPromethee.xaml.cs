@@ -16,7 +16,7 @@ public partial class pantallaMenuPromethe : ContentPage
         CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
         CultureInfo.DefaultThreadCurrentUICulture = new CultureInfo("en-US");
         this.metodo = metodo;
-        List<String> metodos = new List<String> { "suma", "raiz", "rango" };
+        List<String> metodos = new List<String> { "Suma", "Raíz", "Rango" };
         List<String> funciones = new List<String> { "Verdadero Criterio", "Cuasi Criterio", "Seudo Criterio con Preferencia Lineal", "Level Criterio", "Criterio con preferencia lineal y area de indiferencia", "Criterio Gaussiano" };
         p1.ItemsSource = funciones;
         p2.ItemsSource = funciones;

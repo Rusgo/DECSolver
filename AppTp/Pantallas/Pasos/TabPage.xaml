@@ -23,9 +23,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridPLP1_MismoSentOptim"
-              Padding="20"
-              RowSpacing="10"
-              ColumnSpacing="10">
+              Padding="10"
+              RowSpacing="0"
+              ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>
@@ -43,9 +43,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridPLP2_NormAgregacion"
-          Padding="20"
-          RowSpacing="10"
-          ColumnSpacing="10">
+          Padding="10"
+          RowSpacing="0"
+          ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>

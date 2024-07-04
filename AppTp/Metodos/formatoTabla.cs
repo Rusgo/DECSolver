@@ -23,7 +23,7 @@ namespace AppTp.Metodos
             }
             for (int columna = 0; columna < cantColumnas ; columna++)
             {
-                GridTablaPaso.ColumnDefinitions.Add(new ColumnDefinition { Width = 100 });
+                GridTablaPaso.ColumnDefinitions.Add(new ColumnDefinition { Width = 150 });
 
             }
             for (int fila = 0; fila < cantFilas ; fila++)

@@ -15,7 +15,7 @@
     <ContentPage Title="Paso 1" BackgroundColor="#E3FEF7">
         <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
             <StackLayout >
-                <Label>
+                <Label Margin="5,10,0,0">
                     <Label.FormattedText>
                         <FormattedString>
                             <Span Text="Paso 1: " FontAttributes="Bold"/>
@@ -24,9 +24,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridMooraP1_Normalizar"
-          Padding="20"
-          RowSpacing="10"
-          ColumnSpacing="10">
+          Padding="10"
+          RowSpacing="0"
+          ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>
@@ -44,9 +44,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridMooraP2_PondIdeal"
-      Padding="20"
-      RowSpacing="10"
-      ColumnSpacing="10">
+      Padding="10"
+      RowSpacing="0"
+      ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>

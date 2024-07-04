@@ -15,7 +15,10 @@ public partial class Prometee_TabbedPage : TabbedPage
         int cont = 1;
         foreach (float[,] matriz in p.tablasPrimeraParte)
         {
-            grid = new Grid();
+            grid = new Grid()
+            {
+                Margin = new Thickness(5)
+            };
             Metodos.formatoTabla.CreateTable(formatoAhp.formatoExcel(matriz, true, "Criterio"), "C" + cont.ToString(), grid);
             pantallaPaso1.Children.Add(grid);
             cont++;
@@ -23,7 +26,10 @@ public partial class Prometee_TabbedPage : TabbedPage
         cont = 1;
         foreach (float[,] matriz in p.tablasSegundaParte)
         {
-            grid = new Grid();
+            grid = new Grid()
+            {
+                Margin = new Thickness(5)
+            };
             Metodos.formatoTabla.CreateTable(formatoAhp.formatoExcel(matriz, true, "Criterio"), "C" + cont.ToString(), grid);
             pantallaPaso2.Children.Add(grid);
             cont++;
@@ -31,17 +37,20 @@ public partial class Prometee_TabbedPage : TabbedPage
         cont = 1;
         foreach (float[,] matriz in p.matricesPonderadas)
         {
-            grid = new Grid();
+            grid = new Grid()
+            {
+                Margin = new Thickness(5)
+            };
             Metodos.formatoTabla.CreateTable(formatoAhp.formatoExcel(matriz, true, "Criterio"), "C" + cont.ToString(), grid);
             pantallaPaso3.Children.Add(grid);
             cont++;
         }
-        grid = new Grid();
+        grid = new Grid() { Margin = new Thickness(5) };
         List<string> fila = new List<string>() {
-            "flujo negativo"
+            "Flujo negativo"
             };
         List<string> colu = new List<string>() {
-            "flujo positivo"
+            "Flujo positivo"
             };
         List<float[]> flujop = new List<float[]> {
             p.flujoPositivo
@@ -49,7 +58,7 @@ public partial class Prometee_TabbedPage : TabbedPage
         List<float[]> flujon = new List<float[]> {
             p.flujoNegativo
             };
-        Metodos.formatoTabla.CreateTable(p.Agregarfila(p.AgregarColumna(p.formatoExcelP(p.matrizPonderada), flujop, colu), flujon, fila), "Loco", grid);
+        Metodos.formatoTabla.CreateTable(p.Agregarfila(p.AgregarColumna(p.formatoExcelP(p.matrizPonderada), flujop, colu), flujon, fila), "Paso 4", grid);
         pantallaPaso4.Children.Add(grid);
         resultado.mostrarResultados(p.ordenarResultado());
     }

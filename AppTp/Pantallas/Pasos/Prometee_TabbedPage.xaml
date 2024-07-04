@@ -14,28 +14,56 @@
     <ContentPage Title="Paso 1" BackgroundColor="#E3FEF7">
         <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
             <StackLayout x:Name="pantallaPaso1">
-                
+                <Label Margin="5,10,5,10" TextColor="#135D66" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 1: " FontAttributes="Bold"/>
+                            <Span Text="Calcular las diferencias"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
             </StackLayout>
         </ScrollView>
     </ContentPage>
     <ContentPage Title="Paso 2" BackgroundColor="#E3FEF7">
         <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
             <StackLayout x:Name="pantallaPaso2">
-
+                <Label Margin="5,10,5,10" TextColor="#135D66" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 2: " FontAttributes="Bold"/>
+                            <Span Text=""/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
             </StackLayout>
         </ScrollView>
     </ContentPage>
     <ContentPage Title="Paso 3" BackgroundColor="#E3FEF7">
         <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
             <StackLayout x:Name="pantallaPaso3">
-
+                <Label Margin="5,10,5,10" TextColor="#135D66" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 3: " FontAttributes="Bold"/>
+                            <Span Text=""/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
             </StackLayout>
         </ScrollView>
     </ContentPage>
     <ContentPage Title="Paso 4" BackgroundColor="#E3FEF7">
         <ScrollView HorizontalScrollBarVisibility="Always" Orientation="Both">
             <StackLayout x:Name="pantallaPaso4">
-
+                <Label Margin="5,10,5,10" TextColor="#135D66" FontSize="16">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Paso 4: " FontAttributes="Bold"/>
+                            <Span Text=""/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
             </StackLayout>
         </ScrollView>
     </ContentPage>

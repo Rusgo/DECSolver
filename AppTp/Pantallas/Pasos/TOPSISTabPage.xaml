@@ -24,9 +24,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridTOPSIS1_NormAgregacion"
-          Padding="20"
-          RowSpacing="10"
-          ColumnSpacing="10">
+          Padding="10"
+          RowSpacing="0"
+          ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>
@@ -43,9 +43,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridTOPSIS2_PondIdealAntiIdeal"
-      Padding="20"
-      RowSpacing="10"
-      ColumnSpacing="10">
+      Padding="10"
+      RowSpacing="0"
+      ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>
@@ -62,9 +62,9 @@
                     </Label.FormattedText>
                 </Label>
                 <Grid x:Name="GridTOPSIS3_DistanciasIdealAntiideal"
-      Padding="20"
-      RowSpacing="10"
-      ColumnSpacing="10">
+      Padding="10"
+      RowSpacing="0"
+      ColumnSpacing="0">
                 </Grid>
             </StackLayout>
         </ScrollView>
