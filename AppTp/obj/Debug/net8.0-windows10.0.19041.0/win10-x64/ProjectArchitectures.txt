@@ -1,1 +1,1 @@
-C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\AppTp.csproj;x64
+C:\Users\Orussa-Coniglio\Documents\GitHub\DECSolver\AppTp\AppTp.csproj;x64

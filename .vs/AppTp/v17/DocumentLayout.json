@@ -1,13 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\",
+  "WorkspaceRootPath": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\inicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\apptp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\apptp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\pantallas\\inicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\inicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\orussa-coniglio\\documents\\github\\decsolver\\apptp\\pantallas\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -18,23 +34,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppTp",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\AppTp.csproj",
+              "RelativeDocumentMoniker": "AppTp\\AppTp.csproj",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\AppTp.csproj",
+              "RelativeToolTip": "AppTp\\AppTp.csproj",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAADgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-04T20:06:49.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppTp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\AppShell.xaml",
+              "RelativeToolTip": "AppTp\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-04T20:01:39.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "AppTp\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "AppTp\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T20:01:19.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "AppTp\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\MauiProgram.cs",
+              "RelativeToolTip": "AppTp\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T20:00:13.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Inicio.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml.cs",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\Inicio.xaml.cs",
-              "ToolTip": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml.cs",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml.cs",
               "RelativeToolTip": "AppTp\\Pantallas\\Inicio.xaml.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAgwCAAAACSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -43,38 +103,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Inicio.xaml",
-              "DocumentMoniker": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml",
+              "DocumentMoniker": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\Inicio.xaml",
-              "ToolTip": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml",
+              "ToolTip": "C:\\Users\\Orussa-Coniglio\\Documents\\GitHub\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml",
               "RelativeToolTip": "AppTp\\Pantallas\\Inicio.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-04T19:28:37.306Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1554,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{228e1580-0ef9-329a-bf07-81ebc3dcbf7e}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }
