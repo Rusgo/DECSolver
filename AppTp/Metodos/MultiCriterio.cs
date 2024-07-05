@@ -81,7 +81,7 @@ namespace AppTp.Metodos
                     else if (metodo==0)
                         {
                         matriz[i, j] = res;
-                    }
+                        }
 
                     
                     suma += res;

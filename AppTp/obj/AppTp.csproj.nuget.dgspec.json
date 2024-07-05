@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\AppTp.csproj": {}
+    "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\AppTp.csproj": {
+    "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\AppTp.csproj",
+        "projectUniqueName": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj",
         "projectName": "AppTp",
-        "projectPath": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\AppTp.csproj",
-        "packagesPath": "C:\\Users\\damid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\obj\\",
+        "projectPath": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj",
+        "packagesPath": "C:\\Users\\Facu\\.nuget\\packages\\",
+        "outputPath": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\damid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Facu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -94,7 +94,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )",
+              "version": "[8.0.6, )",
               "autoReferenced": true
             }
           },
@@ -117,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
@@ -149,7 +149,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )",
+              "version": "[8.0.6, )",
               "autoReferenced": true
             }
           },
@@ -172,7 +172,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
@@ -204,7 +204,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )",
+              "version": "[8.0.6, )",
               "autoReferenced": true
             }
           },
@@ -228,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -283,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

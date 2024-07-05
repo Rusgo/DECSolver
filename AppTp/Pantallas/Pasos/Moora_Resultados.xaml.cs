@@ -26,15 +26,7 @@ public partial class Moora_Resultados : ContentPage
 
         // Limpiar cualquier contenido previo en el StackLayout
         MedallasStackLayout.Children.Clear();
-        if (DeviceInfo.Platform == DevicePlatform.WinUI)
-        {
-            Alternativa1Label.TranslationY = -170;
-            Alternativa2Label.TranslationX = -200;
-            Alternativa2Label.TranslationY = -90;
-            Alternativa3Label.TranslationX = 200;
-            Alternativa3Label.TranslationY = -80;
-
-        }
+        
         // Crear las vistas para las medallas restantes
         for (int i = 3; i < alternativas.Count; i++)
         {

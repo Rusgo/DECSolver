@@ -8,7 +8,7 @@
     <AppxShowAllApps>False</AppxShowAllApps>
     <_LastSelectedProfileId>MSIX-win10-x861.pubxml</_LastSelectedProfileId>
     <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
-    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">

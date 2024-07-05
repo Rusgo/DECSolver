@@ -34,21 +34,22 @@
 
                 <!-- Nombres de las alternativas en el podio -->
                 <Label x:Name="Alternativa1Label"
-                       FontSize="Medium" 
+                       FontSize="Medium"
+                       Text="a"
                        TextColor="#135D66"
                        HorizontalOptions="Center"
                        FontFamily="Monserrat.ttf"
-                       VerticalOptions="Start"/>
+                       VerticalOptions="Start"
+                       />
 
                 <Label x:Name="Alternativa2Label"
-                       FontSize="Medium" 
+                       FontSize="Medium"
                        TextColor="#135D66"
-                       HorizontalOptions="Start"
                        VerticalOptions="Center"
                        FontFamily="Monserrat.ttf"/>
 
                 <Label x:Name="Alternativa3Label"
-                       FontSize="Medium" 
+                       FontSize="Medium"
                        TextColor="#135D66"
                        HorizontalOptions="End"
                        VerticalOptions="Center"                       

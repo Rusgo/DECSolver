@@ -665,7 +665,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -3705,7 +3705,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -6673,7 +6673,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -9641,7 +9641,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -12609,7 +12609,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -15577,7 +15577,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -18545,7 +18545,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -21513,7 +21513,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -24458,7 +24458,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -26475,7 +26475,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -28785,7 +28785,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -31095,7 +31095,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -33405,7 +33405,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -35715,7 +35715,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -38025,7 +38025,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -40335,7 +40335,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -42617,7 +42617,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -44610,7 +44610,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -46896,7 +46896,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -49182,7 +49182,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -51468,7 +51468,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -53754,7 +53754,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -56040,7 +56040,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -58326,7 +58326,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.5": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -80589,10 +80589,10 @@
         "microsoft.maui.resizetizer.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.5": {
-      "sha512": "4ISW1Ndgz86FkIbu5rVlMqhhtojdy5rUlxC/N+9kPh9qbYcvHiCvYbHKzAPVIx9OPYIjT9trXt7JI42Y5Ukq6A==",
+    "Microsoft.NET.ILLink.Tasks/8.0.6": {
+      "sha512": "E+lDylsTeP4ZiDmnEkiJ5wobnGaIJzFhOgZppznJCb69UZgbh6G3cfv1pnLDLLBx6JAgl0kAlnINDeT3uCuczQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.5",
+      "path": "microsoft.net.illink.tasks/8.0.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -80606,7 +80606,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.5.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -88029,7 +88029,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.5"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.6"
     ],
     "net8.0-ios17.2": [
       "ClosedXML >= 0.102.2",
@@ -88038,7 +88038,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.5"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.6"
     ],
     "net8.0-maccatalyst17.2": [
       "ClosedXML >= 0.102.2",
@@ -88047,7 +88047,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.5"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.6"
     ],
     "net8.0-windows10.0.19041": [
       "ClosedXML >= 0.102.2",
@@ -88059,24 +88059,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\damid\\.nuget\\packages\\": {},
+    "C:\\Users\\Facu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\AppTp.csproj",
+      "projectUniqueName": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj",
       "projectName": "AppTp",
-      "projectPath": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\AppTp.csproj",
-      "packagesPath": "C:\\Users\\damid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\obj\\",
+      "projectPath": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\AppTp.csproj",
+      "packagesPath": "C:\\Users\\Facu\\.nuget\\packages\\",
+      "outputPath": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\damid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Facu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -88152,7 +88152,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.5, )",
+            "version": "[8.0.6, )",
             "autoReferenced": true
           }
         },
@@ -88175,7 +88175,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-ios17.2": {
         "targetAlias": "net8.0-ios",
@@ -88207,7 +88207,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.5, )",
+            "version": "[8.0.6, )",
             "autoReferenced": true
           }
         },
@@ -88230,7 +88230,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-maccatalyst17.2": {
         "targetAlias": "net8.0-maccatalyst",
@@ -88262,7 +88262,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.5, )",
+            "version": "[8.0.6, )",
             "autoReferenced": true
           }
         },
@@ -88286,7 +88286,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
@@ -88341,7 +88341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
