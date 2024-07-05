@@ -96,30 +96,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Moor
 build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Moora_Resultados.xaml
 build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Moora_Resultados.xaml
 
-[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_Paso1_calculoPrefyFuncion.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_Paso1_calculoPrefyFuncion.xaml
-build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Prometee_Paso1_calculoPrefyFuncion.xaml
-build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Prometee_Paso1_calculoPrefyFuncion.xaml
-
-[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_Paso2_Preferencia.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_Paso2_Preferencia.xaml
-build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Prometee_Paso2_Preferencia.xaml
-build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Prometee_Paso2_Preferencia.xaml
-
-[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_paso3_calculoFlujos.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_paso3_calculoFlujos.xaml
-build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Prometee_paso3_calculoFlujos.xaml
-build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Prometee_paso3_calculoFlujos.xaml
-
-[C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_Paso4_Preorden.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_Paso4_Preorden.xaml
-build_metadata.AdditionalFiles.TargetPath = Pantallas\Pasos\Prometee_Paso4_Preorden.xaml
-build_metadata.AdditionalFiles.RelativePath = Pantallas\Pasos\Prometee_Paso4_Preorden.xaml
-
 [C:/Users/damid/OneDrive/Escritorio/Proyecto DEC/DECSolver/AppTp/Pantallas/Pasos/Prometee_TabbedPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppTp.Pantallas.Pasos.Prometee_TabbedPage.xaml

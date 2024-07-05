@@ -1,6 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\MauiInfo.plist" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\imagendec1.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\informacion.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla10.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla11.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla12.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla13.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla14.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla15.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla4.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla5.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla6.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla7.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla8.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\medalla9.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\podio.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\pregunta.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\titulo.png" />
+    <BundleResource Include="C:\Users\damid\OneDrive\Escritorio\Proyecto DEC\DECSolver\AppTp\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\transp.png" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\Montserrat.ttf" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
   </ItemGroup>
 </Project>

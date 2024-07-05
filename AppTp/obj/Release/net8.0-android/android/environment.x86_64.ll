@@ -108,9 +108,9 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 0, ; uint32_t bundled_assembly_name_width (0x0)
 	i32 2, ; uint32_t number_of_assembly_store_files (0x2)
 	i32 918, ; uint32_t number_of_dso_cache_entries (0x396)
-	i32 33555186, ; uint32_t android_runtime_jnienv_class_token (0x20002f2)
-	i32 100671200, ; uint32_t jnienv_initialize_method_token (0x6001ee0)
-	i32 100671199, ; uint32_t jnienv_registerjninatives_method_token (0x6001edf)
+	i32 33555189, ; uint32_t android_runtime_jnienv_class_token (0x20002f5)
+	i32 100671209, ; uint32_t jnienv_initialize_method_token (0x6001ee9)
+	i32 100671208, ; uint32_t jnienv_registerjninatives_method_token (0x6001ee8)
 	i32 0, ; uint32_t jni_remapping_replacement_type_count (0x0)
 	i32 0, ; uint32_t jni_remapping_replacement_method_index_entry_count (0x0)
 	i32 0, ; uint32_t mono_components_mask (0x0)
@@ -5643,7 +5643,7 @@ target triple = "x86_64-unknown-linux-android21"
 @.env.0 = private unnamed_addr constant [15 x i8] c"MONO_GC_PARAMS\00", align 1
 @.env.1 = private unnamed_addr constant [21 x i8] c"major=marksweep-conc\00", align 16
 @.env.2 = private unnamed_addr constant [17 x i8] c"XAMARIN_BUILD_ID\00", align 16
-@.env.3 = private unnamed_addr constant [37 x i8] c"07e6c6bf-eef7-483f-90e6-1cbc0836870e\00", align 16
+@.env.3 = private unnamed_addr constant [37 x i8] c"27a834d3-9db0-457d-9e69-1931544919f5\00", align 16
 @.env.4 = private unnamed_addr constant [28 x i8] c"XA_HTTP_CLIENT_HANDLER_TYPE\00", align 16
 @.env.5 = private unnamed_addr constant [42 x i8] c"Xamarin.Android.Net.AndroidMessageHandler\00", align 16
 @.env.6 = private unnamed_addr constant [29 x i8] c"__XA_PACKAGE_NAMING_POLICY__\00", align 16
@@ -5814,7 +5814,7 @@ target triple = "x86_64-unknown-linux-android21"
 !0 = !{i32 1, !"wchar_size", i32 4}
 !1 = !{i32 7, !"PIC Level", i32 2}
 !llvm.ident = !{!2}
-!2 = !{!"Xamarin.Android remotes/origin/release/8.0.2xx @ 0d97e20b84d8e87c3502469ee395805907905fe3"}
+!2 = !{!"Xamarin.Android remotes/origin/release/8.0.1xx @ af27162bee43b7fecdca59b4f67aa8c175cbc875"}
 !3 = !{!4, !4, i64 0}
 !4 = !{!"any pointer", !5, i64 0}
 !5 = !{!"omnipotent char", !6, i64 0}

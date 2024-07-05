@@ -1,54 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\",
+  "WorkspaceRootPath": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\metodos\\moorapuntoref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\metodos\\moorapuntoref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\metodos\\multicriterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\metodos\\multicriterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\pantallamenupromethee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenupromethee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\metodos\\moora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\metodos\\moora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\pasos\\mooraprtabpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pasos\\mooraprtabpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\pasos\\mooratabpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pasos\\mooratabpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\pasos\\moora_resultados.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pasos\\moora_resultados.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\pasos\\moora_resultados.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pasos\\moora_resultados.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\ahp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\ahp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\ahp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\ahp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\pantallamenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|c:\\users\\damid\\onedrive\\escritorio\\proyecto dec\\decsolver\\apptp\\pantallas\\pantallamenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\pantallamenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|d:\\a\\curso spring\\proyecto final\\decsolver\\apptp\\pantallas\\resultados.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9F9A3202-20D2-4478-AAFE-EF1719E95E49}|AppTp\\AppTp.csproj|solutionrelative:apptp\\pantallas\\resultados.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,157 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MooraPuntoRef.cs",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\MooraPuntoRef.cs",
-              "RelativeDocumentMoniker": "AppTp\\Metodos\\MooraPuntoRef.cs",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\MooraPuntoRef.cs",
-              "RelativeToolTip": "AppTp\\Metodos\\MooraPuntoRef.cs",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAgwK4AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T04:23:42.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Moora.cs",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\Moora.cs",
-              "RelativeDocumentMoniker": "AppTp\\Metodos\\Moora.cs",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\Moora.cs",
-              "RelativeToolTip": "AppTp\\Metodos\\Moora.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T04:24:54.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MooraPRTabPage.xaml.cs",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Pasos\\MooraPRTabPage.xaml.cs",
-              "RelativeDocumentMoniker": "AppTp\\Pantallas\\Pasos\\MooraPRTabPage.xaml.cs",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Pasos\\MooraPRTabPage.xaml.cs",
-              "RelativeToolTip": "AppTp\\Pantallas\\Pasos\\MooraPRTabPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T03:37:46.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NewPage1.xaml.cs",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\NewPage1.xaml.cs",
-              "RelativeDocumentMoniker": "AppTp\\Pantallas\\NewPage1.xaml.cs",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\NewPage1.xaml.cs",
-              "RelativeToolTip": "AppTp\\Pantallas\\NewPage1.xaml.cs",
-              "ViewState": "AQIAAMQAAAAAAAAAAAAAANMAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T04:14:48.656Z",
+              "Title": "Inicio.xaml",
+              "DocumentMoniker": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml",
+              "RelativeDocumentMoniker": "AppTp\\Pantallas\\Inicio.xaml",
+              "ToolTip": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\Inicio.xaml",
+              "RelativeToolTip": "AppTp\\Pantallas\\Inicio.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-05T14:05:12.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MultiCriterio.cs",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\MultiCriterio.cs",
-              "RelativeDocumentMoniker": "AppTp\\Metodos\\MultiCriterio.cs",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Metodos\\MultiCriterio.cs",
-              "RelativeToolTip": "AppTp\\Metodos\\MultiCriterio.cs",
-              "ViewState": "AQIAAPABAAAAAAAAAAAQwPcBAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T04:12:31.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MooraTabPage.xaml.cs",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Pasos\\MooraTabPage.xaml.cs",
-              "RelativeDocumentMoniker": "AppTp\\Pantallas\\Pasos\\MooraTabPage.xaml.cs",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Pasos\\MooraTabPage.xaml.cs",
-              "RelativeToolTip": "AppTp\\Pantallas\\Pasos\\MooraTabPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T04:07:45.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Moora_Resultados.xaml.cs",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Pasos\\Moora_Resultados.xaml.cs",
-              "RelativeDocumentMoniker": "AppTp\\Pantallas\\Pasos\\Moora_Resultados.xaml.cs",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Pasos\\Moora_Resultados.xaml.cs",
-              "RelativeToolTip": "AppTp\\Pantallas\\Pasos\\Moora_Resultados.xaml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T00:58:38.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Ahp.xaml",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Ahp.xaml",
-              "RelativeDocumentMoniker": "AppTp\\Pantallas\\Ahp.xaml",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Ahp.xaml",
-              "RelativeToolTip": "AppTp\\Pantallas\\Ahp.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "pantallaMenuPromethee.xaml",
+              "DocumentMoniker": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\pantallaMenuPromethee.xaml",
+              "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenuPromethee.xaml",
+              "ToolTip": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\pantallaMenuPromethee.xaml",
+              "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenuPromethee.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-05T03:37:41.566Z",
+              "WhenOpened": "2024-07-05T14:05:05.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Ahp.xaml.cs",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Ahp.xaml.cs",
-              "RelativeDocumentMoniker": "AppTp\\Pantallas\\Ahp.xaml.cs",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Ahp.xaml.cs",
-              "RelativeToolTip": "AppTp\\Pantallas\\Ahp.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T03:37:40.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Moora_Resultados.xaml",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Pasos\\Moora_Resultados.xaml",
-              "RelativeDocumentMoniker": "AppTp\\Pantallas\\Pasos\\Moora_Resultados.xaml",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Pasos\\Moora_Resultados.xaml",
-              "RelativeToolTip": "AppTp\\Pantallas\\Pasos\\Moora_Resultados.xaml",
-              "ViewState": "AQIAABkAAAAAAAAAAADwvy8AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-05T00:58:24.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "pantallaMenu.xaml",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
               "RelativeDocumentMoniker": "AppTp\\Pantallas\\pantallaMenu.xaml",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
+              "ToolTip": "C:\\Users\\damid\\OneDrive\\Escritorio\\Proyecto DEC\\DECSolver\\AppTp\\Pantallas\\pantallaMenu.xaml",
               "RelativeToolTip": "AppTp\\Pantallas\\pantallaMenu.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-05T01:00:20.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Resultados.xaml",
-              "DocumentMoniker": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Resultados.xaml",
-              "RelativeDocumentMoniker": "AppTp\\Pantallas\\Resultados.xaml",
-              "ToolTip": "D:\\a\\curso spring\\Proyecto final\\DECSolver\\AppTp\\Pantallas\\Resultados.xaml",
-              "RelativeToolTip": "AppTp\\Pantallas\\Resultados.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-05T00:57:42.614Z",
               "EditorCaption": ""
             }
           ]
@@ -232,6 +79,10 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{228e1580-0ef9-329a-bf07-81ebc3dcbf7e}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
@@ -240,7 +91,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{228e1580-0ef9-329a-bf07-81ebc3dcbf7e}"
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }
