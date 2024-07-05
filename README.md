@@ -5,7 +5,11 @@
 
 # Sobre la App
 ## Índice
-
+1. [Introducción](#introducción)
+2. [Instalar en Windows](#Instalación-manual-en-windows-en-caso-de-que-no-esté-disponible-en-Microsoft-Store)
+3. [Instalar en Android](#Instalación-manual-en-android-en-caso-de-que-no-esté-disponible-en-playstore)
+4. [WIP](#WIP)
+5. [Ejemplos](#Ejemplos)
 ## Introducción
 Hola, somos estudiantes de la carrera de Ingeniería en Sistemas de Información de la Universidad Tecnológica Nacional, Facultad Regional de Córdoba. Nos gustaría presentarles una aplicación desarrollada para la materia "Decisiones en Escenarios Complejos".
 
@@ -40,7 +44,7 @@ Para instalar la versión de Windows desde la Microsoft Store, sigue estos pasos
 
 [No Disponible](#)
 
-#### Instalación manual en android en caso de que no esté disponible en Microsoft Store
+## Instalación manual en windows en caso de que no esté disponible en Microsoft Store
 [Descargar Instalador Windows](https://drive.google.com/drive/folders/17Zf0J_AfWvWxE3Em-RWzvmI8WJqu6dQX?usp=drive_link)
 1. Descargar la carpeta del link.
 2. Click derecho en el archivo Install.
