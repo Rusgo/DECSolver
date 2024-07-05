@@ -23,11 +23,11 @@
                 <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*,*,*">
 
                     <Label Grid.Row="0" Grid.Column="0" Text="Cantidad de Alternativas:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center" FontSize="Small"></Label>
-                    <Entry x:Name="Alternativas" HorizontalTextAlignment="Center" IsEnabled="False" Grid.Column="2" Grid.Row="0" HorizontalOptions="FillAndExpand" TextColor="Black" BackgroundColor="White"></Entry>
+                    <Entry x:Name="Alternativas" HorizontalTextAlignment="Center" Margin="5,0,5,0" IsEnabled="False" Grid.Column="2" Grid.Row="0" HorizontalOptions="FillAndExpand" TextColor="Black" BackgroundColor="White"></Entry>
                     <Button  TextColor="White" Clicked="btnMenosAlter" Text="-" x:Name="BtnDecremento"  Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="{DynamicResource boton}"/>
                     <Button TextColor="White" Clicked="btnMasAlter" Text="+" x:Name="BtnIncremento"  Grid.Column="3" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="{DynamicResource boton}"/>
                     <Label Grid.Row="1" Grid.Column="0" Text="Cantidad de Criterios:" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center" FontSize="Small"></Label>
-                    <Entry x:Name="criterios" HorizontalTextAlignment="Center" TextChanged="criterios_TextChanged" IsEnabled="False" Grid.Column="2" Grid.Row="1" HorizontalOptions="FillAndExpand" TextColor="Black" Background="White" ></Entry>
+                    <Entry x:Name="criterios" HorizontalTextAlignment="Center" Margin="5,0,5,0" TextChanged="criterios_TextChanged" IsEnabled="False" Grid.Column="2" Grid.Row="1" HorizontalOptions="FillAndExpand" TextColor="Black" Background="White" ></Entry>
                     <Button TextColor="White" Clicked="btnMenosCri" Text="-" x:Name="BtnDecremento2"  Grid.Column="1" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="{DynamicResource boton}"/>
                     <Button TextColor="White" Clicked="btnMasCri" Text="+" x:Name="BtnIncremento2"  Grid.Column="3" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="{DynamicResource boton}"/>
                     <Label Grid.Row="2" Grid.Column="0" Text="Método de normalización:" Grid.ColumnSpan="2" FontFamily="Monserrat.ttf" TextColor="{DynamicResource labels}" VerticalOptions="Center" FontSize="Small"></Label>

@@ -82,16 +82,16 @@ public partial class Moora_Resultados : ContentPage
         var encabezadoLabel = new Label
         {
             Text = "Resultados",
-            TextColor = Colors.Black,
-            HorizontalOptions = LayoutOptions.FillAndExpand,
+            TextColor = Colors.White,
+            HorizontalOptions = LayoutOptions.Center,
             VerticalOptions = LayoutOptions.Center,
-            FontAttributes = FontAttributes.Bold
+            FontAttributes = FontAttributes.Bold,
         };
         var encabezadoFrame = new Frame
         {
             Content = encabezadoLabel,
-            BackgroundColor = Color.FromArgb("#135D66"), 
-            BorderColor = Colors.Black,
+            BackgroundColor = Color.FromHex("#003C43"), 
+            BorderColor = Color.FromHex("#003C43"),
             Padding = new Thickness(5),
             HasShadow = false,
             Margin = 0
@@ -105,15 +105,15 @@ public partial class Moora_Resultados : ContentPage
             var label = new Label
             {
                 Text = resultadosConValores[i],
-                TextColor = Colors.Black,
+                TextColor = Color.FromHex("#003C43"),
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.Center
             };
             var frame = new Frame
             {
                 Content = label,
-                BackgroundColor = Color.FromArgb("#7FFFD4"), // Fondo verde agua
-                BorderColor = Colors.Black,
+                BackgroundColor = Colors.White, // Fondo verde agua
+                BorderColor = Color.FromHex("#003C43"),
                 Padding = new Thickness(5),
                 HasShadow = false,
                 Margin = 0
