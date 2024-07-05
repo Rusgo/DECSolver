@@ -82,6 +82,7 @@ Para instalar la versión de Android desde la Google Play Store, sigue estos pas
 - Documentar métodos
 - Mejorar las validaciones
 - Agregar controles a los métodos
+- Exportar a Excel AHP
 
 ## Ejemplos
 ### Ponderación Lineal
