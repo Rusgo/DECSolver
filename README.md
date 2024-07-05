@@ -90,8 +90,8 @@ Para instalar la versión de Android desde la Google Play Store, sigue estos pas
 ![image](https://github.com/Rusgo/DECSolver/assets/107321881/f1de825f-e544-4ece-baaf-28faa8242c04)
 
 ### MOORA
-![image](https://github.com/Rusgo/DECSolver/assets/107321881/528aa5b8-4ff9-4e66-843d-1750954c60b2)
-![image](https://github.com/Rusgo/DECSolver/assets/107321881/6280c369-5ec6-474d-828d-fbb4f1daa467)
+![image](https://github.com/Rusgo/DECSolver/assets/107321881/539cdcf0-d6f5-4a86-a881-6c298b43145a)
+![image](https://github.com/Rusgo/DECSolver/assets/107321881/31fc04a8-9ea9-462d-9302-23feb492b375)
 ![image](https://github.com/Rusgo/DECSolver/assets/107321881/a2a551bb-95b7-4786-aaa6-f73ef7403520)
 
 ### MOORA Punto de Referencia
